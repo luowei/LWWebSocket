@@ -1,0 +1,23 @@
+PODS:
+  - LWWebSocket (1.0.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - LWWebSocket (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  LWWebSocket:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LWWebSocket: 99e18982a18f3d0c40cfed8fbd2bbaae936ca2b0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 2c4a756494c98e27d4e7a09281895cde1ef84d4e
+
+COCOAPODS: 1.8.3

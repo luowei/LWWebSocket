@@ -1,0 +1,10 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LWWebSocket_Example' do
+  pod 'LWWebSocket', :path => '../'
+
+  pod 'Masonry'
+
+end
