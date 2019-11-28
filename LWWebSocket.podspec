@@ -48,6 +48,9 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'LWWebSocket' => ['LWWebSocket/Assets/**/*']
   }
+  s.libraries = 'xml2'
+
+  s.pod_target_xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '$(inherited) "${PROJECT_DIR}/.."/**  /usr/include/libxml2' }
 
   # ss.frameworks = [
   #   'Foundation','CoreGraphics','UIKit','SystemConfiguration','QuartzCore','VideoToolbox','AudioToolbox','AVFoundation','CoreMedia','AssetsLibrary','CFNetwork',

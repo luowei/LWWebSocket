@@ -16,24 +16,37 @@
 		6003F59E195388D20070C39A /* LWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LWAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LWViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		94801950D02FF67489DBAADF /* Pods_XXKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996D1B2886C68CA734179223 /* Pods_XXKeyboard.framework */; };
+		BEF066B13069E0D83385D867 /* UIWindow+LWShake.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060284EFBB1A4B8FC37F2 /* UIWindow+LWShake.m */; };
+		EA09BCEE238E46ED007B56A4 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA09BCED238E46ED007B56A4 /* KeyboardViewController.m */; };
+		EA09BCF2238E46ED007B56A4 /* XXKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EA09BCEA238E46ED007B56A4 /* XXKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+		EA09BCF0238E46ED007B56A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = LWWebSocket;
+			remoteGlobalIDString = EA09BCE9238E46ED007B56A4;
+			remoteInfo = XXKeyboard;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA09BCF3238E46ED007B56A4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EA09BCF2238E46ED007B56A4 /* XXKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6003F58A195388D20070C39A /* LWWebSocket_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWWebSocket_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,20 +62,29 @@
 		6003F5A5195388D20070C39A /* LWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* LWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* LWWebSocket_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWWebSocket_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		62F8DE6A06E121A285A0B13B /* Pods-LWWebSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWWebSocket_Example.release.xcconfig"; path = "Target Support Files/Pods-LWWebSocket_Example/Pods-LWWebSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6AA585C0084B7F1EB559D1EE /* Pods-XXKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXKeyboard.release.xcconfig"; path = "Target Support Files/Pods-XXKeyboard/Pods-XXKeyboard.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		908CD769AAF05F55B98673A0 /* LWWebSocket.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWWebSocket.podspec; path = ../LWWebSocket.podspec; sourceTree = "<group>"; };
+		996D1B2886C68CA734179223 /* Pods_XXKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B12C1978970AF3D6429234F /* Pods-LWWebSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWWebSocket_Example.debug.xcconfig"; path = "Target Support Files/Pods-LWWebSocket_Example/Pods-LWWebSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B4DF786B0D181F6ABF3CF572 /* Pods_LWWebSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWWebSocket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF060284EFBB1A4B8FC37F2 /* UIWindow+LWShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+LWShake.m"; sourceTree = "<group>"; };
+		BEF06F19E762972178FBE433 /* UIWindow+LWShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+LWShake.h"; sourceTree = "<group>"; };
 		E984DC53C73228C8F50B6639 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA09BCEA238E46ED007B56A4 /* XXKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XXKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA09BCEC238E46ED007B56A4 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		EA09BCED238E46ED007B56A4 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		EA09BCEF238E46ED007B56A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8C7099238687C6006721E6 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		F0D4A95522CE94DF9C99DFB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FDB54039D3C0F89AC2E184F9 /* Pods-XXKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXKeyboard.debug.xcconfig"; path = "Target Support Files/Pods-XXKeyboard/Pods-XXKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,13 +99,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
+		EA09BCE7238E46ED007B56A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				94801950D02FF67489DBAADF /* Pods_XXKeyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +115,8 @@
 			children = (
 				9B12C1978970AF3D6429234F /* Pods-LWWebSocket_Example.debug.xcconfig */,
 				62F8DE6A06E121A285A0B13B /* Pods-LWWebSocket_Example.release.xcconfig */,
+				FDB54039D3C0F89AC2E184F9 /* Pods-XXKeyboard.debug.xcconfig */,
+				6AA585C0084B7F1EB559D1EE /* Pods-XXKeyboard.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,6 +127,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LWWebSocket */,
 				6003F5B5195388D20070C39A /* Tests */,
+				EA09BCEB238E46ED007B56A4 /* XXKeyboard */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				4F840186B83983407A9443C5 /* Pods */,
@@ -115,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* LWWebSocket_Example.app */,
-				6003F5AE195388D20070C39A /* LWWebSocket_Tests.xctest */,
+				EA09BCEA238E46ED007B56A4 /* XXKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,11 +146,13 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA8C7099238687C6006721E6 /* libxml2.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				B4DF786B0D181F6ABF3CF572 /* Pods_LWWebSocket_Example.framework */,
+				996D1B2886C68CA734179223 /* Pods_XXKeyboard.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +168,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				BEF060284EFBB1A4B8FC37F2 /* UIWindow+LWShake.m */,
+				BEF06F19E762972178FBE433 /* UIWindow+LWShake.h */,
 			);
 			name = "Example for LWWebSocket";
 			path = LWWebSocket;
@@ -188,6 +215,16 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		EA09BCEB238E46ED007B56A4 /* XXKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EA09BCEC238E46ED007B56A4 /* KeyboardViewController.h */,
+				EA09BCED238E46ED007B56A4 /* KeyboardViewController.m */,
+				EA09BCEF238E46ED007B56A4 /* Info.plist */,
+			);
+			path = XXKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,33 +237,35 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				70BFC110F455E0CD5140C58E /* [CP] Embed Pods Frameworks */,
+				EA09BCF3238E46ED007B56A4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EA09BCF1238E46ED007B56A4 /* PBXTargetDependency */,
 			);
 			name = LWWebSocket_Example;
 			productName = LWWebSocket;
 			productReference = 6003F58A195388D20070C39A /* LWWebSocket_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* LWWebSocket_Tests */ = {
+		EA09BCE9238E46ED007B56A4 /* XXKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LWWebSocket_Tests" */;
+			buildConfigurationList = EA09BCF6238E46ED007B56A4 /* Build configuration list for PBXNativeTarget "XXKeyboard" */;
 			buildPhases = (
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
+				5F37CE9C4FD3FC45488E1ABA /* [CP] Check Pods Manifest.lock */,
+				EA09BCE6238E46ED007B56A4 /* Sources */,
+				EA09BCE7238E46ED007B56A4 /* Frameworks */,
+				EA09BCE8238E46ED007B56A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = LWWebSocket_Tests;
-			productName = LWWebSocketTests;
-			productReference = 6003F5AE195388D20070C39A /* LWWebSocket_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = XXKeyboard;
+			productName = XXKeyboard;
+			productReference = EA09BCEA238E46ED007B56A4 /* XXKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -241,8 +280,10 @@
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = G3A2KYKYBU;
 					};
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					EA09BCE9238E46ED007B56A4 = {
+						CreatedOnToolsVersion = 11.1;
+						DevelopmentTeam = G3A2KYKYBU;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -261,7 +302,7 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* LWWebSocket_Example */,
-				6003F5AD195388D20070C39A /* LWWebSocket_Tests */,
+				EA09BCE9238E46ED007B56A4 /* XXKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -278,17 +319,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AC195388D20070C39A /* Resources */ = {
+		EA09BCE8238E46ED007B56A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5F37CE9C4FD3FC45488E1ABA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XXKeyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		70BFC110F455E0CD5140C58E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,11 +360,13 @@
 				"${PODS_ROOT}/Target Support Files/Pods-LWWebSocket_Example/Pods-LWWebSocket_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LWWebSocket/LWWebSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/LWWebLoader/LWWebLoader.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LWWebSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LWWebLoader.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -341,24 +405,25 @@
 				6003F59E195388D20070C39A /* LWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BEF066B13069E0D83385D867 /* UIWindow+LWShake.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
+		EA09BCE6238E46ED007B56A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				EA09BCEE238E46ED007B56A4 /* KeyboardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+		EA09BCF1238E46ED007B56A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* LWWebSocket_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+			target = EA09BCE9238E46ED007B56A4 /* XXKeyboard */;
+			targetProxy = EA09BCF0238E46ED007B56A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,7 +538,7 @@
 				GCC_PREFIX_HEADER = "LWWebSocket/LWWebSocket-Prefix.pch";
 				INFOPLIST_FILE = "LWWebSocket/LWWebSocket-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.LWWebSocket-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wodedata.XXInputMethod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -490,54 +555,89 @@
 				GCC_PREFIX_HEADER = "LWWebSocket/LWWebSocket-Prefix.pch";
 				INFOPLIST_FILE = "LWWebSocket/LWWebSocket-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.LWWebSocket-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wodedata.XXInputMethod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
+		EA09BCF4238E46ED007B56A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB54039D3C0F89AC2E184F9 /* Pods-XXKeyboard.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = XXKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wodedata.XXInputMethod.XXKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWWebSocket_Example.app/LWWebSocket_Example";
-				WRAPPER_EXTENSION = xctest;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6003F5C4195388D20070C39A /* Release */ = {
+		EA09BCF5238E46ED007B56A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA585C0084B7F1EB559D1EE /* Pods-XXKeyboard.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = XXKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wodedata.XXInputMethod.XXKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWWebSocket_Example.app/LWWebSocket_Example";
-				WRAPPER_EXTENSION = xctest;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -562,11 +662,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LWWebSocket_Tests" */ = {
+		EA09BCF6238E46ED007B56A4 /* Build configuration list for PBXNativeTarget "XXKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
+				EA09BCF4238E46ED007B56A4 /* Debug */,
+				EA09BCF5238E46ED007B56A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

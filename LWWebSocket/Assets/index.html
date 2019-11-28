@@ -39,6 +39,17 @@
         return decodeURIComponent(escape(String.fromCharCode.apply(null, ab)));
     }
 
+    var MessageType = {
+        Raw: 0,
+        Hello: 1,
+        HeartBeat: 2,
+        StreamStart: 3,
+        Streaming: 4,
+        StreamEnd: 5,
+        String: 6,
+        Data: 7
+    };
+
     $(function () {
 
         var reconnectAttempts = 0;
@@ -47,7 +58,7 @@
 
         function connect() {
 
-            websocket = new WebSocket('ws://127.0.0.1:12345/service');
+            websocket = new WebSocket('ws://localhost:11335/service');
             websocket.binaryType = 'arraybuffer';
 
             websocket.onopen = function () {
@@ -81,12 +92,12 @@
                     var dv = new DataView(buf, 0);
 
                     // 小端
-                    var appId = dv.getUint32(0, true);
+                    var messageType = dv.getUint32(0, true);
 
                     var len = data.byteLength;
                     var buf3 = data.slice(headerLen, len);
 
-                    console.log('=== appid:' + appId + ' text:' + ab2str(buf3));
+                    console.log('=== messageType:' + messageType + ' text:' + ab2str(buf3));
 
                     // 收到数据，直接发回去，为了测试
                     websocket.send(data)
@@ -119,7 +130,7 @@
             timeIntervalID = window.setInterval(function () {
                 if (websocket) {
                     websocket.send(
-                        JSON.stringify({'messageType': 'heartBeat'})
+                        JSON.stringify({'messageType': MessageType.HeartBeat})
                     );
                 }
             }, 5000);
@@ -129,7 +140,7 @@
         $('button').click(function (e) {
             e.preventDefault();
             websocket.send(
-                JSON.stringify({'messageType': 'echo', 'text': $('input').val()})
+                JSON.stringify({'messageType': MessageType.String, 'messageBody': $('input').val()})
             );
         });
 

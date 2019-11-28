@@ -7,101 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02F86C0FD91217F4D82ECDFE6231F6FA /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5FCE9620D6E8B2B1A1B7465F44616F /* DDRange.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		04E63DBA9845ACAE1121C31678A6F2CA /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B83CF1B7CE093326F2F60B0D21D45BDE /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		02F86C0FD91217F4D82ECDFE6231F6FA /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 1818F2401B9047FBEE4F29AC98A1B064 /* DDRange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03EF576A6F2963EF33CCF4E78C44598F /* aaaa.zip in Resources */ = {isa = PBXBuildFile; fileRef = 76D998DDCFB8219B0B57537CC72EAC99 /* aaaa.zip */; };
+		04E63DBA9845ACAE1121C31678A6F2CA /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 880A1AA20F46387EB1268486903E04BA /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06B1114F69E673A50128E8038C66AEF7 /* WebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C6F0E71F7B27D7658242CB61C89B5 /* WebSocketManager.m */; };
+		06B1114F69E673A50128E8038C66AEF7 /* WebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1218A7FAB41EF22A8D9752F1A6BF3 /* WebSocketManager.m */; };
+		09499C6D2457E89430B3C4A31A56B37E /* Pods-LWWebSocket_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C92F936ABE34D230273753CB3006466 /* Pods-LWWebSocket_Example-dummy.m */; };
 		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
 		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
 		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D8B674904CC23190DCF468B1C146F7E /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1B27ABADBDD6C36B49E2A5B35EADDD /* DDNumber.m */; };
-		0E0B2603814FED066F8D99DC421AD4A4 /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A224B3EAC946605751C1A03F861D3A4 /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		13DD1AAE792D208EFCD889F89FEF1D08 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C99B2ED9627AAB77AADAD0159C41D8 /* HTTPConnection.m */; };
-		179E118E0232003705067CCF4E4BE357 /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F6704F5349C2B6DA9DFE2AFDB506F8FE /* HTTPErrorResponse.m */; };
+		0D8B674904CC23190DCF468B1C146F7E /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF0690A8D7F4F99EB053F8BA348906D /* DDNumber.m */; };
+		0E0B2603814FED066F8D99DC421AD4A4 /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BACBEA802F5F87105313E7EF7D53D8 /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E99FC979655C82158696483AE2AD991 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = F2FAD7D7AF8825F9759E6D2441EB99FF /* test.json */; };
+		13DD1AAE792D208EFCD889F89FEF1D08 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A901B73BEB18B157109CF498A5A7F872 /* HTTPConnection.m */; };
+		179E118E0232003705067CCF4E4BE357 /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54B8BE4B90B7CF05916D70ADA4307D /* HTTPErrorResponse.m */; };
+		18AF2E076B6BBAD306C6A90F593D5B40 /* test.zip in Resources */ = {isa = PBXBuildFile; fileRef = F29D615B10568F877B40BA029F93451B /* test.zip */; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
-		1AA8075A1318E044EC3AD893BDC46327 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF744DDDD78EBB1D9521B1EC8BFF3B /* DDAbstractDatabaseLogger.m */; };
-		1C401448A8B93E400626D57EC8AD43F6 /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 493D9547CAFABD337C9BBF459BD33F59 /* MultipartFormDataParser.m */; };
-		20358A98C22EE236E94CA63BA6D97D0C /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A1F6F6214FFF3E83B281DA61289BFB /* ContextFilterLogFormatter.m */; };
-		2726BC16DD5A903914FED022B7D68FBA /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = F88F187F34E697C09BCE1ED5E6DCAEC4 /* HTTPConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AA8075A1318E044EC3AD893BDC46327 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355B27093AB2CB9F7A8DAE36DC8E02B /* DDAbstractDatabaseLogger.m */; };
+		1C401448A8B93E400626D57EC8AD43F6 /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D01271A7E5C492A25400611567F06B /* MultipartFormDataParser.m */; };
+		20358A98C22EE236E94CA63BA6D97D0C /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCEC249CF8E7101ACEA25361AF16264 /* ContextFilterLogFormatter.m */; };
+		26607138696997C9F60F321A45703144 /* pyserver_upload.py in Resources */ = {isa = PBXBuildFile; fileRef = D88609091BBF7B2B4007012084554AEC /* pyserver_upload.py */; };
+		26E243DB32A968D3B9BD22127B6DDFE4 /* LWWebLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE2F97AD38C8C37030076CD20B8FC90 /* LWWebLoader.m */; };
+		2726BC16DD5A903914FED022B7D68FBA /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A04B1D95604A6E8EE6783873B87188A /* HTTPConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
+		2CF124E56544DF218651E4E0B5ABD12C /* LWWebLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64064E2AA6B1BFF161F7B4D11925D22E /* LWWebLoader-dummy.m */; };
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35426465A26A04AA70AA7AB012D3C289 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 23953FF33DA18AD13FF18DAC4555D167 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		362A846BB9C7E60D763DF00AADAA3CB9 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B07EA2E0E1F2C1CDA65E4F03D4B7010F /* GCDAsyncSocket.m */; };
-		37CCD8C3343C8DB34E01A4999A17007F /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD167E23370654B40A5F74F44D5117 /* DDData.m */; };
-		39D1EC87A72F4089BC251F38B84B36C3 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F09F2F5133AA4DEB0A698BFAB7F13AD /* HTTPAsyncFileResponse.m */; };
+		35426465A26A04AA70AA7AB012D3C289 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B725269D551431B44F12A463308BF415 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		362A846BB9C7E60D763DF00AADAA3CB9 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5360701B2EB8F103DD49112ECC96F715 /* GCDAsyncSocket.m */; };
+		37CCD8C3343C8DB34E01A4999A17007F /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED08AEFA4AB48B7CCC8DF25F6C37E90 /* DDData.m */; };
+		382A3E89B8FB1808C71607A6C3CF1F21 /* Pods-XXKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F991D44AE7670B65365A62B203DDA5 /* Pods-XXKeyboard-dummy.m */; };
+		39D1EC87A72F4089BC251F38B84B36C3 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB81E2DC1314B80A38878F6EC1B71CC /* HTTPAsyncFileResponse.m */; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F7C4EDD59FB98F4AE5E725CCA189A9D /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D1452219472F2A08CB30D18B8EEA64 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		429DB183AF69F5327C6283867D504562 /* Pods-LWWebSocket_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 573890F79434451C60FB8F3968862406 /* Pods-LWWebSocket_Example-dummy.m */; };
-		43EDB686AB33A79692F6BC20B6F018EA /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EABF5475A4CD38167FD312479085AA73 /* HTTPDataResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46594459E3890D63F602A36ADAA345C2 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C1EBE77C702D1C74631BB0399777B2 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46A5CB51DD353CD0003AB2E4092E7D7C /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 722D264ECD153181179AF36EEDB5C430 /* HTTPAuthenticationRequest.m */; };
-		4A3BC7630B6005B3B3760094E777EB8F /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3912566DBDC8BDB91B82635D40B046CE /* DDFileLogger.m */; };
+		3F7C4EDD59FB98F4AE5E725CCA189A9D /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF0B68888121BA7B91B7F008DB1C114 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43EDB686AB33A79692F6BC20B6F018EA /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E09CB76B6FF5D7D5D2395BEF3C3E86 /* HTTPDataResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46594459E3890D63F602A36ADAA345C2 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5086F66BAFF3E60D4F1C9ECD04F0BC59 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46A5CB51DD353CD0003AB2E4092E7D7C /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B83A2FC09BB7D2C733CB42AE530B13 /* HTTPAuthenticationRequest.m */; };
+		4A3BC7630B6005B3B3760094E777EB8F /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED0BFD9087E8D109F962534DE2D97F /* DDFileLogger.m */; };
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C7E5894F2B946809705DACB49258401 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40698F6279B6A16DC32EB4D5932B9A47 /* DispatchQueueLogFormatter.m */; };
-		4C9C52AB60583CA62325BA1F16046828 /* DispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0467A234BFE667C3CCC194D386CCE112 /* DispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		519075D0DF55AB8D843448B1F86B8867 /* MultipartMessageHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2325A946699EF59882B8E1CB721298C4 /* MultipartMessageHeaderField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C6C24B4179AB3DE3F2D8116F32CD1BD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 90EB806EFDE07809DE487EA1CFD4140B /* index.html */; };
+		4C7E5894F2B946809705DACB49258401 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B52EF129C21CA1AEBA4C83E4D85EB95 /* DispatchQueueLogFormatter.m */; };
+		4C9C52AB60583CA62325BA1F16046828 /* DispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = B715BE80E484646D105A5D422C5BBE73 /* DispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		519075D0DF55AB8D843448B1F86B8867 /* MultipartMessageHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = F4492905D759C38C983A945D18FE96A5 /* MultipartMessageHeaderField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51B3D9415C252CC10F72B741479320D0 /* StreamSaver.js in Resources */ = {isa = PBXBuildFile; fileRef = 57DB21409937B4485FBFD584930A33D1 /* StreamSaver.js */; };
+		55FBE6C6EFCA5AB549EF18DF69B1CD88 /* mitm.html in Resources */ = {isa = PBXBuildFile; fileRef = A5CAB1D03D634D06ECDEB2F9DC7CF679 /* mitm.html */; };
 		586763587367EDBE61E7F96566EDE0F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		59151CEFC023721D7D7745B821266534 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D46039750A231D12159D4C1C17DD6D /* DDASLLogger.m */; };
-		6397A4F57BDF26CC0B950A6E1BF7AAA8 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D6C031404E9656482A4ECB8F7F7B02 /* WebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6721C72DDA0F3552110488F2A7DA8154 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3A0E692182202FC65181991AD06A2 /* HTTPFileResponse.m */; };
-		692000B5405CF1B806CC22CBC1B40EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		6A0C73B926E560D86B4190DA3724DBB5 /* HTTPErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E443DAC02F7CAC045401497BD457AF7 /* HTTPErrorResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59151CEFC023721D7D7745B821266534 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E68595474E7B0DBDC2CFB58DF7CC6 /* DDASLLogger.m */; };
+		5B8B890D6EA6D2C69B75584CE3F6C9EF /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAB88BE274344270AF2E7982C7697F9A /* data.txt */; };
+		630DC131A8CC1356B9A145589F8D0803 /* LWWebLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58939CB0896C5FA2BDD6BAE6232275B7 /* LWWebLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6397A4F57BDF26CC0B950A6E1BF7AAA8 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 323B03CA4D8D499E8A55C21E19A8FFCC /* WebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6721C72DDA0F3552110488F2A7DA8154 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ADC88686260573E529BEC3EC46502 /* HTTPFileResponse.m */; };
+		6A0C73B926E560D86B4190DA3724DBB5 /* HTTPErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 792E8F3376BD3143CB717D0462B97853 /* HTTPErrorResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AB05EE028BE49FB6C8CB075276CCA9C /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4A67B70346056FDD0A850FAF79052B /* MultipartMessageHeader.m */; };
-		6BBC0865B15A73B212BF942EC62E4990 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC3A20CD6CB253C61799C843999ED1E /* DDData.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		722E0B2077678444BA9A05D3FCAD88AF /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B372559D56888CD9443A0B3287B059 /* DDTTYLogger.m */; };
-		72FFE1C0F7778D539B57BB01976237FB /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB697AEFA48EFE05C45D22A8B4C5A3B /* MultipartFormDataParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		74FA62E87D9EE1C3E0AC1F7D4D2942B0 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD788BA75A365126C9108E84F099376A /* HTTPMessage.m */; };
-		7832B2F1AC507268B0F528E70F3CA7E1 /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F81E7C2984B6AF33FF4C8C1A79DB0F0 /* MultipartMessageHeaderField.m */; };
+		6AB05EE028BE49FB6C8CB075276CCA9C /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 238177A42EF970C8499CE94794BBBA84 /* MultipartMessageHeader.m */; };
+		6B616F27653690B03ED5424CA79915A3 /* LWWebLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7A5A984022C3E3E9C1E7E6A9C2222D /* LWWebLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BBC0865B15A73B212BF942EC62E4990 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = 983399EB2F3894C22A93CC56325BA45A /* DDData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		722E0B2077678444BA9A05D3FCAD88AF /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F45CD6B3CB72A12954F557343CADB5C /* DDTTYLogger.m */; };
+		72FFE1C0F7778D539B57BB01976237FB /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FBC3F17157C16FB93754970C492FA5 /* MultipartFormDataParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74CA5EE61A6CA5F940D9C2116658E5D0 /* Pods-LWWebSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A65C88B6C80490DBAD2F2E958E91A1 /* Pods-LWWebSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74FA62E87D9EE1C3E0AC1F7D4D2942B0 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 88342A9C7C64DBDC37E0F3CDD2A50909 /* HTTPMessage.m */; };
+		7832B2F1AC507268B0F528E70F3CA7E1 /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 577A6F36D19CEF00B02DA8F7103C3788 /* MultipartMessageHeaderField.m */; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
-		7C23DD2EF2A05D1B6CB2ED475AF3ECB0 /* ContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DFCEB3AB99EDA75CB2A8ECD6FF8080 /* ContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		85005F2EDEE51484ED8E29BC590266BE /* HTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 269827306896695CC1C59D7E511F0E73 /* HTTPFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C23DD2EF2A05D1B6CB2ED475AF3ECB0 /* ContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C3236F5D6AA027ABC1897E4096C68DE3 /* ContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FB0B07C1DC5148B94D88D25C2874877 /* ponyfill.min.js in Resources */ = {isa = PBXBuildFile; fileRef = D2CA1BD70A203607B5E479FBB9DC9D86 /* ponyfill.min.js */; };
+		85005F2EDEE51484ED8E29BC590266BE /* HTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 12A7983BC1B68F4C0FC0F510EFC0DD56 /* HTTPFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
-		8729E0051E64A147F296FE6D1695A50C /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B66594BC2CF5BF5F0D7A5B38876CE2 /* DDRange.m */; };
+		8729E0051E64A147F296FE6D1695A50C /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F4D426CABFAF392D0620D9456B163 /* DDRange.m */; };
 		8ABBBEABDF5482E5A9C9A6527C009ABD /* LWWebSocket.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF2353DF8D949E2CBC8717A14FDE8A25 /* LWWebSocket.bundle */; };
 		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC4A3A60C1A56A1B1FBD02D4F652387 /* influence.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 76B89C1AA5E53BC9E3ADA21456DF52AE /* influence.pdf */; };
+		901914263CF2A153772477644E9B7AB8 /* 2019111817539.zip in Resources */ = {isa = PBXBuildFile; fileRef = 409C41AE98436CE0C30551BE53DF8C9E /* 2019111817539.zip */; };
+		9102CB287D981EBED7C1553C1B432156 /* loader.html in Resources */ = {isa = PBXBuildFile; fileRef = C3E60A273DC4750CBEF2C952A31E3284 /* loader.html */; };
 		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		965194D473EA4EE59A7B48A835A66366 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C2FD1EFC73479CB1A411FB3902E1838F /* DDASLLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94BC6F643D1B421026D7441E993692A5 /* websocket.html in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C682A4404C567A8DBA910B863430 /* websocket.html */; };
+		965194D473EA4EE59A7B48A835A66366 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5FE72A3236CC7EAB78255C9135BF81 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C666CC47D07855A42AC2C0BD62DB662 /* LWWebLoader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE807EF431971F91F9933B9AAF866E91 /* LWWebLoader.bundle */; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD2012B750ED9D891AC7D088C6228B1 /* Pods-XXKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EB5A77D07768ABD8F863F065D52576 /* Pods-XXKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
-		A5DEEA2236FE3AAEC38F03B1D0603E9E /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = F43881A29CCEA1CA527E6D5A0B27BC9B /* HTTPServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A63E36C1271E9DC84657B333DECE9248 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 66B303F5D259D26BF918366697B5B868 /* index.html */; };
-		AC148490E6FB0805292FD901FC81832B /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DB7691F8B5441770F05314D6C9F43 /* HTTPRedirectResponse.m */; };
-		AD95BED1A172C96158BB30A27A4DF5EB /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE6F355B3D6B1FD081F322B33E227BF /* HTTPDynamicFileResponse.m */; };
-		B644ECA951D85C8368EAFC321785ECFB /* HTTPRedirectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FF56B62D4845DF32ACE1707D98B92A61 /* HTTPRedirectResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5DEEA2236FE3AAEC38F03B1D0603E9E /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D746D3BECDFDF4B2E8573941EC308F5 /* HTTPServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9BD79FE3FD45555F944212F99E2AF14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		AC148490E6FB0805292FD901FC81832B /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E1042C5C53A42378ADEF1147D58BBB /* HTTPRedirectResponse.m */; };
+		AD95BED1A172C96158BB30A27A4DF5EB /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E581ED2026D40F9118A043BA49CB19 /* HTTPDynamicFileResponse.m */; };
+		B644ECA951D85C8368EAFC321785ECFB /* HTTPRedirectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4735FB35D14E4019247D496C67CEAD6A /* HTTPRedirectResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
-		B9B88EF545999D2E4663B1129DFF619A /* Pods-LWWebSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5969F1C7169EA46EDC9FFF0BEE397CE3 /* Pods-LWWebSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAAF5E6C83E6C9374D2D11553B40704A /* LWWebSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE79A31F2EC78EA92C1D233CDBF4FEB /* LWWebSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAAF5E6C83E6C9374D2D11553B40704A /* LWWebSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9E2C0A09F6991C1E37E2FB706E897C /* LWWebSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		C3F8EC6E38AD13BB64BA3ED30AA0B3E9 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EAC9110BDEEB9A219831A4DB249E97 /* WebSocket.m */; };
-		C7FC935A3AD965D9BC84E2D32934CC22 /* MultipartMessageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4342E199DE20ACA30267A9ED360E214D /* MultipartMessageHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C8EE8C3EEDD620EAD040C0451BBE75C1 /* LWWebSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B3B5BD26F5ACD8D53C53357316A8C /* LWWebSocket-dummy.m */; };
-		CD1CD8931B74CFE4F2E00D74BC1537D2 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7959B109F566BEDCBAF09FAD58E9508B /* DDLog.m */; };
+		C3F8EC6E38AD13BB64BA3ED30AA0B3E9 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5AA5D91EBE72739EA36909E2FE44E /* WebSocket.m */; };
+		C7FC935A3AD965D9BC84E2D32934CC22 /* MultipartMessageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 819AEBDF6AF0B378CE8747FC42877091 /* MultipartMessageHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8EE8C3EEDD620EAD040C0451BBE75C1 /* LWWebSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B669BE295FB62DCC7BDC2177CF683 /* LWWebSocket-dummy.m */; };
+		CC08C38BB72B25D0899BE0DB274B5969 /* mylib.js in Resources */ = {isa = PBXBuildFile; fileRef = F21B915B0BD55FE371892539F669FADB /* mylib.js */; };
+		CD1CD8931B74CFE4F2E00D74BC1537D2 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 741CCF80EFE933481BDEFBC7C6F11367 /* DDLog.m */; };
 		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		D57EC066602668FFB50170C50AD39B54 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3BD07B732DD20BE40808713827F528 /* DDNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D64EA7B4AD0565033FF64556AD4E830A /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 634E0AF0DD8B3438B301314234854DEB /* HTTPResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D96B1BC54293EF39E715A161D223BA89 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F393BB5623AFF32CA45BF2AC8908BA06 /* HTTPServer.m */; };
-		DCF1F2C53F998EAD27697EE507AB6A1E /* WebSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E34B4FAFB405E578BA6B8FC23851EE73 /* WebSocketManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E06CE348E7F1592C6C1BEE623DA82AEE /* jquery-1.9.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BCBD2C062FD64AA4354F22DE11BC75E9 /* jquery-1.9.0.min.js */; };
-		E260030BEBE37A9945AD6BB3F723BFF9 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D79EEB01C2D51A7F33838094A1E73CE6 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D275832EB6D632EE13C2BB20CE1D4375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D57EC066602668FFB50170C50AD39B54 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B2C6C7C651739864CC043A3E133A62 /* DDNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D64EA7B4AD0565033FF64556AD4E830A /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E288B63B7843A24EB15813577A2CCE /* HTTPResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D96B1BC54293EF39E715A161D223BA89 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D5C2B8DB1F7C60A07D15DA4D21399 /* HTTPServer.m */; };
+		DC1CE9551B6DE646B8211563B3BBBE8B /* python_server.py in Resources */ = {isa = PBXBuildFile; fileRef = 624B8F9DD523F23D6C5CE25AD74D71F8 /* python_server.py */; };
+		DCF1F2C53F998EAD27697EE507AB6A1E /* WebSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DBEB57D034649E63A29C6BE72F1E3256 /* WebSocketManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B5AD9E3CF5543ABD0460B779BEA1D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E260030BEBE37A9945AD6BB3F723BFF9 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 182746766B6C88DB70FCC66C05B0C14A /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
-		EA45E55C8EF5EA62DE055CD8CACF2FB9 /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F81F86CA505BE26B6534FBC1AA5E360 /* HTTPDataResponse.m */; };
+		E8FF10601B6C983DAAA0085D3368B65C /* jquery-1.9.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = B777D53777F6E020D7F518D778DE7F6B /* jquery-1.9.0.min.js */; };
+		EA45E55C8EF5EA62DE055CD8CACF2FB9 /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A62B0AC0B47E33EA2B4E251C55C8F977 /* HTTPDataResponse.m */; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F01BA08E15E377FE4EEC6FEDAC95AA49 /* HTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CBECCAA741428F5DDBD6570DEE19E5 /* HTTPDynamicFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FA2CF3042270C5E61E2EDFFB527B04F0 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 340905E3EAE056BE6103B482D33A3EB6 /* DDLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBF2527C1198B61BC8A31CFFAA0F41A2 /* pyserver.py in Resources */ = {isa = PBXBuildFile; fileRef = 306E773EF216ED06BB23B922E03B0C14 /* pyserver.py */; };
+		EC7DC12E33142807B1E5F6C450C29FED /* websocket.html in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9B90B2AE41AB66491BBB2707A3912 /* websocket.html */; };
+		F01BA08E15E377FE4EEC6FEDAC95AA49 /* HTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C41D8E604348A3995D39C5067FDF471 /* HTTPDynamicFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7FCD81EB24F3778BEBAA641601E1180 /* sw.js in Resources */ = {isa = PBXBuildFile; fileRef = 6362F42ABD5258901664E587DFAF5579 /* sw.js */; };
+		FA2CF3042270C5E61E2EDFFB527B04F0 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 150FCB94AB102CA819B009BEC8682A4A /* DDLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB5480CD700FFBED504573471CB88B2F /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3BE9AEBEAA0C8EE839F1798022CECF /* HTTPMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FE1F702DD16F13FB038C83C4CF0D39AE /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC221A3C84E28689F57BC4F942B2789 /* HTTPLogging.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB5480CD700FFBED504573471CB88B2F /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BA8D9F15D81A86BA46CD4C02C80F42 /* HTTPMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE1F702DD16F13FB038C83C4CF0D39AE /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAFF4C2B0EB6B0B93868B78B5FE1DF4 /* HTTPLogging.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0A0D79CF921EC14342C229A60A94BB11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21DA2A1A44E4279A1FE0DA9FA24BC22;
+			remoteInfo = LWWebLoader;
+		};
+		38655446FDDD1FB603976CBB8A920DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 735E988447B169273C4AA6C898EA854D;
+			remoteInfo = LWWebSocket;
+		};
+		450E3F64C60CFF5B8F06C1B1C1C3F931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 760276DD7F52B8C4BAC3A7FD48563620;
+			remoteInfo = "LWWebLoader-LWWebLoader";
+		};
+		770A0A916F68204CEA2536111123579B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21DA2A1A44E4279A1FE0DA9FA24BC22;
+			remoteInfo = LWWebLoader;
+		};
 		7CBB39AE571E4F6E98DFC6A6E143D9F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -109,144 +163,192 @@
 			remoteGlobalIDString = 8931CDD19F40B32978660F66E1517733;
 			remoteInfo = "LWWebSocket-LWWebSocket";
 		};
-		E9E825EF60A74C2F029EFE544D9B233B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		FC3E72D8339CC26949C07964481F81EE /* PBXContainerItemProxy */ = {
+		A11EC80B16199AC05ED8E6A9CFB295FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 735E988447B169273C4AA6C898EA854D;
 			remoteInfo = LWWebSocket;
 		};
+		E9D96321BE9A9D9C7B7A3F1371E59974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		00CF744DDDD78EBB1D9521B1EC8BFF3B /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		0467A234BFE667C3CCC194D386CCE112 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		07C1EBE77C702D1C74631BB0399777B2 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
-		07DFCEB3AB99EDA75CB2A8ECD6FF8080 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
-		0B1B27ABADBDD6C36B49E2A5B35EADDD /* DDNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		0CB5AA5D91EBE72739EA36909E2FE44E /* WebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
 		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		12A7983BC1B68F4C0FC0F510EFC0DD56 /* HTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPFileResponse.h; sourceTree = "<group>"; };
 		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		1842806412CAFD5F0F61B3767B401591 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1355B27093AB2CB9F7A8DAE36DC8E02B /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		139F3347C49382B7DA28409BD137CFC5 /* LWWebSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWWebSocket-prefix.pch"; sourceTree = "<group>"; };
+		150FCB94AB102CA819B009BEC8682A4A /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		157E68595474E7B0DBDC2CFB58DF7CC6 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		159483483A21B971847E2900F88CD00C /* LWWebLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LWWebLoader.framework; path = LWWebLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E581ED2026D40F9118A043BA49CB19 /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
+		1818F2401B9047FBEE4F29AC98A1B064 /* DDRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		182746766B6C88DB70FCC66C05B0C14A /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		18D01271A7E5C492A25400611567F06B /* MultipartFormDataParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MultipartFormDataParser.m; sourceTree = "<group>"; };
+		18E288B63B7843A24EB15813577A2CCE /* HTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		1BE0014A7ECCC4CDCCD62CF886D871C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2325A946699EF59882B8E1CB721298C4 /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeaderField.h; sourceTree = "<group>"; };
-		23953FF33DA18AD13FF18DAC4555D167 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
-		269827306896695CC1C59D7E511F0E73 /* HTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPFileResponse.h; sourceTree = "<group>"; };
-		2DE79A31F2EC78EA92C1D233CDBF4FEB /* LWWebSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWWebSocket-umbrella.h"; sourceTree = "<group>"; };
+		2310587FAFAE924A88B974DAC9D50816 /* Pods-XXKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		238177A42EF970C8499CE94794BBBA84 /* MultipartMessageHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeader.m; sourceTree = "<group>"; };
+		238E3859B339613F66E6D762308A1FC3 /* LWWebLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LWWebLoader-Info.plist"; sourceTree = "<group>"; };
+		23BFF440E3F8CEBF4F5E28458B965E62 /* Pods-LWWebSocket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LWWebSocket_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2B5D5C2B8DB1F7C60A07D15DA4D21399 /* HTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		2D746D3BECDFDF4B2E8573941EC308F5 /* HTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		306E773EF216ED06BB23B922E03B0C14 /* pyserver.py */ = {isa = PBXFileReference; includeInIndex = 1; name = pyserver.py; path = LWWebLoader/Assets/pyserver.py; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		340905E3EAE056BE6103B482D33A3EB6 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		323B03CA4D8D499E8A55C21E19A8FFCC /* WebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
 		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		3912566DBDC8BDB91B82635D40B046CE /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
-		39D6C031404E9656482A4ECB8F7F7B02 /* WebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
+		3A4F4D426CABFAF392D0620D9456B163 /* DDRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
 		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		3C7CDF9153C2A35F6693A9F94D815B78 /* Pods-LWWebSocket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LWWebSocket_Example.modulemap"; sourceTree = "<group>"; };
-		3CC83FD3DE78EBB544C8FC912013ED0C /* Pods-LWWebSocket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWWebSocket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		40698F6279B6A16DC32EB4D5932B9A47 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		4342E199DE20ACA30267A9ED360E214D /* MultipartMessageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeader.h; sourceTree = "<group>"; };
+		3C92F936ABE34D230273753CB3006466 /* Pods-LWWebSocket_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWWebSocket_Example-dummy.m"; sourceTree = "<group>"; };
+		3D068A8514468AF16BECE746BA49A0FF /* Pods-XXKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXKeyboard-Info.plist"; sourceTree = "<group>"; };
+		3EF9B90B2AE41AB66491BBB2707A3912 /* websocket.html */ = {isa = PBXFileReference; includeInIndex = 1; name = websocket.html; path = LWWebLoader/Assets/websocket.html; sourceTree = "<group>"; };
+		409C41AE98436CE0C30551BE53DF8C9E /* 2019111817539.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = 2019111817539.zip; path = LWWebLoader/Assets/2019111817539.zip; sourceTree = "<group>"; };
+		40C47DF64AF3E3FF07E0F1564947A22F /* Pods-LWWebSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWWebSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		466DB7691F8B5441770F05314D6C9F43 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
-		47EAC9110BDEEB9A219831A4DB249E97 /* WebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
-		493D9547CAFABD337C9BBF459BD33F59 /* MultipartFormDataParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MultipartFormDataParser.m; sourceTree = "<group>"; };
+		44D5A4F3E840CB63C2106227B88498A9 /* Pods-LWWebSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWWebSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
+		46B83A2FC09BB7D2C733CB42AE530B13 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		4735FB35D14E4019247D496C67CEAD6A /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
+		49BA8D9F15D81A86BA46CD4C02C80F42 /* HTTPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
+		4A57317294479B74976DFEF3D8977678 /* ResourceBundle-LWWebLoader-LWWebLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LWWebLoader-LWWebLoader-Info.plist"; sourceTree = "<group>"; };
 		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		4F81E7C2984B6AF33FF4C8C1A79DB0F0 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeaderField.m; sourceTree = "<group>"; };
-		573890F79434451C60FB8F3968862406 /* Pods-LWWebSocket_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWWebSocket_Example-dummy.m"; sourceTree = "<group>"; };
-		5969F1C7169EA46EDC9FFF0BEE397CE3 /* Pods-LWWebSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LWWebSocket_Example-umbrella.h"; sourceTree = "<group>"; };
+		4FF0B68888121BA7B91B7F008DB1C114 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		5086F66BAFF3E60D4F1C9ECD04F0BC59 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		521F4818845286123705A2CA68B8AAC4 /* LWWebSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LWWebSocket-Info.plist"; sourceTree = "<group>"; };
+		5360701B2EB8F103DD49112ECC96F715 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		577A6F36D19CEF00B02DA8F7103C3788 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeaderField.m; sourceTree = "<group>"; };
+		57DB21409937B4485FBFD584930A33D1 /* StreamSaver.js */ = {isa = PBXFileReference; includeInIndex = 1; name = StreamSaver.js; path = LWWebLoader/Assets/StreamSaver.js; sourceTree = "<group>"; };
+		58939CB0896C5FA2BDD6BAE6232275B7 /* LWWebLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWWebLoader-umbrella.h"; sourceTree = "<group>"; };
+		5BB4DC002FFFAED420E47CE1214586A0 /* LWWebLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LWWebLoader.modulemap; sourceTree = "<group>"; };
+		5F1ADC88686260573E529BEC3EC46502 /* HTTPFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
 		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		61D46039750A231D12159D4C1C17DD6D /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		624B8F9DD523F23D6C5CE25AD74D71F8 /* python_server.py */ = {isa = PBXFileReference; includeInIndex = 1; name = python_server.py; path = LWWebLoader/Assets/python_server.py; sourceTree = "<group>"; };
 		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		634E0AF0DD8B3438B301314234854DEB /* HTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
-		66B303F5D259D26BF918366697B5B868 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = LWWebSocket/Assets/index.html; sourceTree = "<group>"; };
-		66DC1EC50A8028A1EFB73B5A8BEB91BF /* Pods-LWWebSocket_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWWebSocket_Example-Info.plist"; sourceTree = "<group>"; };
-		6D0C6F0E71F7B27D7658242CB61C89B5 /* WebSocketManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebSocketManager.m; sourceTree = "<group>"; };
-		6D2DD615E2CDE118CCC63F0115E9D663 /* LWWebSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LWWebSocket-Info.plist"; sourceTree = "<group>"; };
-		6E443DAC02F7CAC045401497BD457AF7 /* HTTPErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPErrorResponse.h; sourceTree = "<group>"; };
-		722D264ECD153181179AF36EEDB5C430 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
-		754D500BFB4B603894E72D19C5FD2CBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7959B109F566BEDCBAF09FAD58E9508B /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
-		795EF490C6A66D575B01B24273F30B46 /* Pods-LWWebSocket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWWebSocket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7DFD167E23370654B40A5F74F44D5117 /* DDData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
-		7F09F2F5133AA4DEB0A698BFAB7F13AD /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
-		7F81F86CA505BE26B6534FBC1AA5E360 /* HTTPDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPDataResponse.m; sourceTree = "<group>"; };
-		80CBECCAA741428F5DDBD6570DEE19E5 /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		6362F42ABD5258901664E587DFAF5579 /* sw.js */ = {isa = PBXFileReference; includeInIndex = 1; name = sw.js; path = LWWebLoader/Assets/sw.js; sourceTree = "<group>"; };
+		64064E2AA6B1BFF161F7B4D11925D22E /* LWWebLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWWebLoader-dummy.m"; sourceTree = "<group>"; };
+		667FDDEDCA61677143178B53A53E3EDF /* LWWebLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWWebLoader.xcconfig; sourceTree = "<group>"; };
+		6E9E2C0A09F6991C1E37E2FB706E897C /* LWWebSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWWebSocket-umbrella.h"; sourceTree = "<group>"; };
+		6EDAB4A57BE8E9544227487528048A38 /* LWWebLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWWebLoader-prefix.pch"; sourceTree = "<group>"; };
+		702DA6CFBC9A667AA03B11C9CC165C06 /* ResourceBundle-LWWebSocket-LWWebSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LWWebSocket-LWWebSocket-Info.plist"; sourceTree = "<group>"; };
+		741CCF80EFE933481BDEFBC7C6F11367 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		76B89C1AA5E53BC9E3ADA21456DF52AE /* influence.pdf */ = {isa = PBXFileReference; includeInIndex = 1; name = influence.pdf; path = LWWebLoader/Assets/influence.pdf; sourceTree = "<group>"; };
+		76D998DDCFB8219B0B57537CC72EAC99 /* aaaa.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = aaaa.zip; path = LWWebLoader/Assets/aaaa.zip; sourceTree = "<group>"; };
+		78044CBDDF3DD2F98DDCE2D407DB170A /* Pods-XXKeyboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXKeyboard-acknowledgements.plist"; sourceTree = "<group>"; };
+		792E8F3376BD3143CB717D0462B97853 /* HTTPErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPErrorResponse.h; sourceTree = "<group>"; };
+		7B52EF129C21CA1AEBA4C83E4D85EB95 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		7E00C682A4404C567A8DBA910B863430 /* websocket.html */ = {isa = PBXFileReference; includeInIndex = 1; name = websocket.html; path = LWWebSocket/Assets/websocket.html; sourceTree = "<group>"; };
+		7ED08AEFA4AB48B7CCC8DF25F6C37E90 /* DDData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		819AEBDF6AF0B378CE8747FC42877091 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeader.h; sourceTree = "<group>"; };
+		81B2114B354DDE876219DEC9D1F78642 /* Pods-XXKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
 		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		880A1AA20F46387EB1268486903E04BA /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		88342A9C7C64DBDC37E0F3CDD2A50909 /* HTTPMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
+		88EEA3F6E51574B153532E6D43EFF8B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		8B531825D946A1326E4A8233067D01A6 /* LWWebSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWWebSocket.xcconfig; sourceTree = "<group>"; };
+		8CC352849FF0E5E38E031D8D9180CF0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8D05047227425F898D41CD52ED5B5B8C /* Pods-LWWebSocket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWWebSocket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		9198CF610AC92D5BA662AB6D6565F240 /* Pods-LWWebSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWWebSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A224B3EAC946605751C1A03F861D3A4 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
-		9BF3A0E692182202FC65181991AD06A2 /* HTTPFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
+		8DF1218A7FAB41EF22A8D9752F1A6BF3 /* WebSocketManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebSocketManager.m; sourceTree = "<group>"; };
+		909D41359D65C14DD9B8169B7A7A018F /* Pods_XXKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XXKeyboard.framework; path = "Pods-XXKeyboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E09CB76B6FF5D7D5D2395BEF3C3E86 /* HTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPDataResponse.h; sourceTree = "<group>"; };
+		90EB806EFDE07809DE487EA1CFD4140B /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = LWWebSocket/Assets/index.html; sourceTree = "<group>"; };
+		943E92D75F20FBC827F3E3004785B061 /* LWWebSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LWWebSocket.modulemap; sourceTree = "<group>"; };
+		9485C4E6A206E770725F0DC52DA7D7C0 /* LWWebLoader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWWebLoader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		952A976680562B140179BC3E63073A73 /* LWWebSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWWebSocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		983399EB2F3894C22A93CC56325BA45A /* DDData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		9A04B1D95604A6E8EE6783873B87188A /* HTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		9C41D8E604348A3995D39C5067FDF471 /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		9C4F858B327FF2F17632101B4AC99951 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E3BE9AEBEAA0C8EE839F1798022CECF /* HTTPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
+		9EB81E2DC1314B80A38878F6EC1B71CC /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		9F45CD6B3CB72A12954F557343CADB5C /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		9F7A5A984022C3E3E9C1E7E6A9C2222D /* LWWebLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWWebLoader.h; path = LWWebLoader/Classes/LWWebLoader.h; sourceTree = "<group>"; };
 		9F8F28D9286303CA9857174D73A226C5 /* Pods_LWWebSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LWWebSocket_Example.framework; path = "Pods-LWWebSocket_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FC3A20CD6CB253C61799C843999ED1E /* DDData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		9FCEC249CF8E7101ACEA25361AF16264 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		A0EB5A77D07768ABD8F863F065D52576 /* Pods-XXKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXKeyboard-umbrella.h"; sourceTree = "<group>"; };
 		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		A1D1452219472F2A08CB30D18B8EEA64 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		A48E424AC447A4DC8FD9134A9B8B1E9B /* LWWebSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LWWebSocket.modulemap; sourceTree = "<group>"; };
-		A9B66594BC2CF5BF5F0D7A5B38876CE2 /* DDRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
-		AB2A2E6EEF25E3255A33D444D939CC8F /* LWWebSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWWebSocket-prefix.pch"; sourceTree = "<group>"; };
+		A5CAB1D03D634D06ECDEB2F9DC7CF679 /* mitm.html */ = {isa = PBXFileReference; includeInIndex = 1; name = mitm.html; path = LWWebLoader/Assets/mitm.html; sourceTree = "<group>"; };
+		A62B0AC0B47E33EA2B4E251C55C8F977 /* HTTPDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPDataResponse.m; sourceTree = "<group>"; };
+		A901B73BEB18B157109CF498A5A7F872 /* HTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		AA5FE72A3236CC7EAB78255C9135BF81 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
 		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		AEE6F355B3D6B1FD081F322B33E227BF /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
-		AF55163AEA8911315109FA4687A0E2FF /* LWWebSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWWebSocket.xcconfig; sourceTree = "<group>"; };
-		AF70D4B61DA0B4EC80F1732BF53CE7D0 /* Pods-LWWebSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWWebSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B07EA2E0E1F2C1CDA65E4F03D4B7010F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		ADE2F97AD38C8C37030076CD20B8FC90 /* LWWebLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWWebLoader.m; path = LWWebLoader/Classes/LWWebLoader.m; sourceTree = "<group>"; };
+		AE54B8BE4B90B7CF05916D70ADA4307D /* HTTPErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPErrorResponse.m; sourceTree = "<group>"; };
 		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		B83CF1B7CE093326F2F60B0D21D45BDE /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
-		B8C32A93BEAF96BEDFE5DDE29BA354BA /* LWWebSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWWebSocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBC221A3C84E28689F57BC4F942B2789 /* HTTPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPLogging.h; sourceTree = "<group>"; };
-		BCBD2C062FD64AA4354F22DE11BC75E9 /* jquery-1.9.0.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery-1.9.0.min.js"; path = "LWWebSocket/Assets/jquery-1.9.0.min.js"; sourceTree = "<group>"; };
-		C2FD1EFC73479CB1A411FB3902E1838F /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		B6BACBEA802F5F87105313E7EF7D53D8 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		B715BE80E484646D105A5D422C5BBE73 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		B725269D551431B44F12A463308BF415 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		B777D53777F6E020D7F518D778DE7F6B /* jquery-1.9.0.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery-1.9.0.min.js"; path = "LWWebSocket/Assets/jquery-1.9.0.min.js"; sourceTree = "<group>"; };
+		BD8B669BE295FB62DCC7BDC2177CF683 /* LWWebSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWWebSocket-dummy.m"; sourceTree = "<group>"; };
+		BE807EF431971F91F9933B9AAF866E91 /* LWWebLoader.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LWWebLoader.bundle; path = "LWWebLoader-LWWebLoader.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E1042C5C53A42378ADEF1147D58BBB /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
+		C1FBC3F17157C16FB93754970C492FA5 /* MultipartFormDataParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultipartFormDataParser.h; sourceTree = "<group>"; };
+		C22AA7A767015C997C989A71C45F1BE4 /* Pods-XXKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XXKeyboard.modulemap"; sourceTree = "<group>"; };
+		C3236F5D6AA027ABC1897E4096C68DE3 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		C3E60A273DC4750CBEF2C952A31E3284 /* loader.html */ = {isa = PBXFileReference; includeInIndex = 1; name = loader.html; path = LWWebLoader/Assets/loader.html; sourceTree = "<group>"; };
+		C3F991D44AE7670B65365A62B203DDA5 /* Pods-XXKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXKeyboard-dummy.m"; sourceTree = "<group>"; };
 		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		CD788BA75A365126C9108E84F099376A /* HTTPMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
-		CD8B3B5BD26F5ACD8D53C53357316A8C /* LWWebSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWWebSocket-dummy.m"; sourceTree = "<group>"; };
-		CF3BD07B732DD20BE40808713827F528 /* DDNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		C7B2C6C7C651739864CC043A3E133A62 /* DDNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		C82510AA515094DFEF8B7D6120ADDA3C /* Pods-LWWebSocket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LWWebSocket_Example.modulemap"; sourceTree = "<group>"; };
+		CAB88BE274344270AF2E7982C7697F9A /* data.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = data.txt; path = LWWebLoader/Assets/data.txt; sourceTree = "<group>"; };
+		CB739F5BDE45FCE94777610FA0529DBF /* Pods-XXKeyboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXKeyboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDF0690A8D7F4F99EB053F8BA348906D /* DDNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
 		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		D1A8CE5B368A9CB365BFD4008475FCE9 /* LWWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LWWebSocket.framework; path = LWWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1B372559D56888CD9443A0B3287B059 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
-		D63F8AFC8C8E03992C990B36156B26CD /* Pods-LWWebSocket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LWWebSocket_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D79EEB01C2D51A7F33838094A1E73CE6 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		D2CA1BD70A203607B5E479FBB9DC9D86 /* ponyfill.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ponyfill.min.js; path = LWWebLoader/Assets/ponyfill.min.js; sourceTree = "<group>"; };
+		D4A65C88B6C80490DBAD2F2E958E91A1 /* Pods-LWWebSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LWWebSocket_Example-umbrella.h"; sourceTree = "<group>"; };
+		D88609091BBF7B2B4007012084554AEC /* pyserver_upload.py */ = {isa = PBXFileReference; includeInIndex = 1; name = pyserver_upload.py; path = LWWebLoader/Assets/pyserver_upload.py; sourceTree = "<group>"; };
+		DBEB57D034649E63A29C6BE72F1E3256 /* WebSocketManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebSocketManager.h; sourceTree = "<group>"; };
+		DC4EAF18053F90ED2D1B90F941D623CF /* Pods-LWWebSocket_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWWebSocket_Example-Info.plist"; sourceTree = "<group>"; };
 		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		DFB697AEFA48EFE05C45D22A8B4C5A3B /* MultipartFormDataParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultipartFormDataParser.h; sourceTree = "<group>"; };
-		E1C99B2ED9627AAB77AADAD0159C41D8 /* HTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
-		E34B4FAFB405E578BA6B8FC23851EE73 /* WebSocketManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebSocketManager.h; sourceTree = "<group>"; };
+		DFED0BFD9087E8D109F962534DE2D97F /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
 		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		EABF5475A4CD38167FD312479085AA73 /* HTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPDataResponse.h; sourceTree = "<group>"; };
+		EFAFF4C2B0EB6B0B93868B78B5FE1DF4 /* HTTPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPLogging.h; sourceTree = "<group>"; };
 		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		F1A1F6F6214FFF3E83B281DA61289BFB /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
 		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		F393BB5623AFF32CA45BF2AC8908BA06 /* HTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
-		F43881A29CCEA1CA527E6D5A0B27BC9B /* HTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
-		F6704F5349C2B6DA9DFE2AFDB506F8FE /* HTTPErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPErrorResponse.m; sourceTree = "<group>"; };
-		F88F187F34E697C09BCE1ED5E6DCAEC4 /* HTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
-		F934D317D604B787214F67A7B1B33B3F /* ResourceBundle-LWWebSocket-LWWebSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LWWebSocket-LWWebSocket-Info.plist"; sourceTree = "<group>"; };
-		FE4A67B70346056FDD0A850FAF79052B /* MultipartMessageHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeader.m; sourceTree = "<group>"; };
+		F21B915B0BD55FE371892539F669FADB /* mylib.js */ = {isa = PBXFileReference; includeInIndex = 1; name = mylib.js; path = LWWebLoader/Assets/mylib.js; sourceTree = "<group>"; };
+		F29D615B10568F877B40BA029F93451B /* test.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = test.zip; path = LWWebLoader/Assets/test.zip; sourceTree = "<group>"; };
+		F2FAD7D7AF8825F9759E6D2441EB99FF /* test.json */ = {isa = PBXFileReference; includeInIndex = 1; name = test.json; path = LWWebLoader/Assets/test.json; sourceTree = "<group>"; };
+		F4492905D759C38C983A945D18FE96A5 /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeaderField.h; sourceTree = "<group>"; };
+		FA027034B1412A9AA4A56F870B03D409 /* Pods-LWWebSocket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWWebSocket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		FF2353DF8D949E2CBC8717A14FDE8A25 /* LWWebSocket.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LWWebSocket.bundle; path = "LWWebSocket-LWWebSocket.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF56B62D4845DF32ACE1707D98B92A61 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
-		FF5FCE9620D6E8B2B1A1B7465F44616F /* DDRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04DA6AB9CF3E3E62DF15C75EF8986EAA /* Frameworks */ = {
+		10F96C4FD761EF7E113DFE1628779A57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				692000B5405CF1B806CC22CBC1B40EBC /* Foundation.framework in Frameworks */,
+				D275832EB6D632EE13C2BB20CE1D4375 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E201897BC47EE17AB03B12972C16EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B5AD9E3CF5543ABD0460B779BEA1D8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +369,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F2BD384BA397B4F48B18D1D0A9FBB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BD79FE3FD45555F944212F99E2AF14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEADF210028F55A1DA04542C4351F588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9BFD8282A338712759C3CE1CFE5F9D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,59 +394,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		070FDFF2D032AEDD401C52609C7777F3 /* LWWebSocket */ = {
+		04037A6299ABDD815A95BB28071AC4AF /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				935D2E12DCC3CB8B9D295FA4B0EDC3A1 /* Classes */,
-				CFD7A3B1D2371B2C81F538949D734974 /* Library */,
-				CB0443A74CF24943C43D43870D34BBA5 /* Pod */,
-				4CF100FA5145F785BA0D2A665C890898 /* Resources */,
-				10990279CFAE121578EA1773A1095E58 /* Support Files */,
+				F9B5A95642DBE294D26B6AD9444F4E63 /* CocoaAsyncSocket */,
+				DDDA5EB882B389C932A04FFB974E99FF /* CocoaHTTPServer */,
+				8D267D4EFA0457F919B7E3EE6F30DEBA /* CocoaLumberjack */,
 			);
-			name = LWWebSocket;
-			path = ../..;
+			name = Library;
+			path = LWWebSocket/Library;
 			sourceTree = "<group>";
 		};
-		10990279CFAE121578EA1773A1095E58 /* Support Files */ = {
+		044F429BC78CCA2B46C8BA41B48DBFC9 /* Pods-XXKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				A48E424AC447A4DC8FD9134A9B8B1E9B /* LWWebSocket.modulemap */,
-				AF55163AEA8911315109FA4687A0E2FF /* LWWebSocket.xcconfig */,
-				CD8B3B5BD26F5ACD8D53C53357316A8C /* LWWebSocket-dummy.m */,
-				6D2DD615E2CDE118CCC63F0115E9D663 /* LWWebSocket-Info.plist */,
-				AB2A2E6EEF25E3255A33D444D939CC8F /* LWWebSocket-prefix.pch */,
-				2DE79A31F2EC78EA92C1D233CDBF4FEB /* LWWebSocket-umbrella.h */,
-				F934D317D604B787214F67A7B1B33B3F /* ResourceBundle-LWWebSocket-LWWebSocket-Info.plist */,
+				C22AA7A767015C997C989A71C45F1BE4 /* Pods-XXKeyboard.modulemap */,
+				CB739F5BDE45FCE94777610FA0529DBF /* Pods-XXKeyboard-acknowledgements.markdown */,
+				78044CBDDF3DD2F98DDCE2D407DB170A /* Pods-XXKeyboard-acknowledgements.plist */,
+				C3F991D44AE7670B65365A62B203DDA5 /* Pods-XXKeyboard-dummy.m */,
+				3D068A8514468AF16BECE746BA49A0FF /* Pods-XXKeyboard-Info.plist */,
+				A0EB5A77D07768ABD8F863F065D52576 /* Pods-XXKeyboard-umbrella.h */,
+				81B2114B354DDE876219DEC9D1F78642 /* Pods-XXKeyboard.debug.xcconfig */,
+				2310587FAFAE924A88B974DAC9D50816 /* Pods-XXKeyboard.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LWWebSocket";
-			sourceTree = "<group>";
-		};
-		11890D36A108C56F1AD0F8F2BE65494F /* CocoaLumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				D79EEB01C2D51A7F33838094A1E73CE6 /* DDAbstractDatabaseLogger.h */,
-				00CF744DDDD78EBB1D9521B1EC8BFF3B /* DDAbstractDatabaseLogger.m */,
-				C2FD1EFC73479CB1A411FB3902E1838F /* DDASLLogger.h */,
-				61D46039750A231D12159D4C1C17DD6D /* DDASLLogger.m */,
-				23953FF33DA18AD13FF18DAC4555D167 /* DDFileLogger.h */,
-				3912566DBDC8BDB91B82635D40B046CE /* DDFileLogger.m */,
-				340905E3EAE056BE6103B482D33A3EB6 /* DDLog.h */,
-				7959B109F566BEDCBAF09FAD58E9508B /* DDLog.m */,
-				07C1EBE77C702D1C74631BB0399777B2 /* DDTTYLogger.h */,
-				D1B372559D56888CD9443A0B3287B059 /* DDTTYLogger.m */,
-				D0312479BF74F386DF5F7C872752284E /* Extensions */,
-			);
-			name = CocoaLumberjack;
-			path = CocoaLumberjack;
-			sourceTree = "<group>";
-		};
-		1403737426E9347E551CD76BEC091516 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A693429D9EDE4CEEEAEB8806F07C347F /* Pods-LWWebSocket_Example */,
-			);
-			name = "Targets Support Files";
+			name = "Pods-XXKeyboard";
+			path = "Target Support Files/Pods-XXKeyboard";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -340,13 +429,98 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4CF100FA5145F785BA0D2A665C890898 /* Resources */ = {
+		2111708D530FD0EEC7C549461941A63F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				66B303F5D259D26BF918366697B5B868 /* index.html */,
-				BCBD2C062FD64AA4354F22DE11BC75E9 /* jquery-1.9.0.min.js */,
+				75EA5219D8B57B757865D641651B2BA9 /* LWWebLoader */,
+				A2AFAC573E6FA4653A7124BA4C575759 /* LWWebSocket */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		253A7D90E23E8AEA77DD4A5B30B84C0F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F858B327FF2F17632101B4AC99951 /* LICENSE */,
+				9485C4E6A206E770725F0DC52DA7D7C0 /* LWWebLoader.podspec */,
+				1BE0014A7ECCC4CDCCD62CF886D871C6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		311975C530CF22E6FDB9653481DC6008 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB4DC002FFFAED420E47CE1214586A0 /* LWWebLoader.modulemap */,
+				667FDDEDCA61677143178B53A53E3EDF /* LWWebLoader.xcconfig */,
+				64064E2AA6B1BFF161F7B4D11925D22E /* LWWebLoader-dummy.m */,
+				238E3859B339613F66E6D762308A1FC3 /* LWWebLoader-Info.plist */,
+				6EDAB4A57BE8E9544227487528048A38 /* LWWebLoader-prefix.pch */,
+				58939CB0896C5FA2BDD6BAE6232275B7 /* LWWebLoader-umbrella.h */,
+				4A57317294479B74976DFEF3D8977678 /* ResourceBundle-LWWebLoader-LWWebLoader-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../LWWebSocket/Example/Pods/Target Support Files/LWWebLoader";
+			sourceTree = "<group>";
+		};
+		331FD0067B5885A3714531FB074E9DCC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				983399EB2F3894C22A93CC56325BA45A /* DDData.h */,
+				7ED08AEFA4AB48B7CCC8DF25F6C37E90 /* DDData.m */,
+				C7B2C6C7C651739864CC043A3E133A62 /* DDNumber.h */,
+				CDF0690A8D7F4F99EB053F8BA348906D /* DDNumber.m */,
+				1818F2401B9047FBEE4F29AC98A1B064 /* DDRange.h */,
+				3A4F4D426CABFAF392D0620D9456B163 /* DDRange.m */,
+			);
+			name = Categories;
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		45AA1FA49CDA1EEC310A0F65DAF2B240 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				409C41AE98436CE0C30551BE53DF8C9E /* 2019111817539.zip */,
+				76D998DDCFB8219B0B57537CC72EAC99 /* aaaa.zip */,
+				CAB88BE274344270AF2E7982C7697F9A /* data.txt */,
+				76B89C1AA5E53BC9E3ADA21456DF52AE /* influence.pdf */,
+				C3E60A273DC4750CBEF2C952A31E3284 /* loader.html */,
+				A5CAB1D03D634D06ECDEB2F9DC7CF679 /* mitm.html */,
+				F21B915B0BD55FE371892539F669FADB /* mylib.js */,
+				D2CA1BD70A203607B5E479FBB9DC9D86 /* ponyfill.min.js */,
+				306E773EF216ED06BB23B922E03B0C14 /* pyserver.py */,
+				D88609091BBF7B2B4007012084554AEC /* pyserver_upload.py */,
+				624B8F9DD523F23D6C5CE25AD74D71F8 /* python_server.py */,
+				57DB21409937B4485FBFD584930A33D1 /* StreamSaver.js */,
+				6362F42ABD5258901664E587DFAF5579 /* sw.js */,
+				F2FAD7D7AF8825F9759E6D2441EB99FF /* test.json */,
+				F29D615B10568F877B40BA029F93451B /* test.zip */,
+				3EF9B90B2AE41AB66491BBB2707A3912 /* websocket.html */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		5B03A2CF84CB43A7067B224B8548A813 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C42D3B42171A661ED495ABB2ACEE3 /* Pods-LWWebSocket_Example */,
+				044F429BC78CCA2B46C8BA41B48DBFC9 /* Pods-XXKeyboard */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C5FDDF956C81B1BC14070C26A120B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE807EF431971F91F9933B9AAF866E91 /* LWWebLoader.bundle */,
+				159483483A21B971847E2900F88CD00C /* LWWebLoader.framework */,
+				FF2353DF8D949E2CBC8717A14FDE8A25 /* LWWebSocket.bundle */,
+				D1A8CE5B368A9CB365BFD4008475FCE9 /* LWWebSocket.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				9F8F28D9286303CA9857174D73A226C5 /* Pods_LWWebSocket_Example.framework */,
+				909D41359D65C14DD9B8169B7A7A018F /* Pods_XXKeyboard.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
@@ -383,27 +557,24 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		6FC49E585ECCC4B33CDFCB196F722EC5 /* CocoaHTTPServer */ = {
+		6D9824962C1335361DAE0980DC392764 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
-				B83CF1B7CE093326F2F60B0D21D45BDE /* HTTPAuthenticationRequest.h */,
-				722D264ECD153181179AF36EEDB5C430 /* HTTPAuthenticationRequest.m */,
-				F88F187F34E697C09BCE1ED5E6DCAEC4 /* HTTPConnection.h */,
-				E1C99B2ED9627AAB77AADAD0159C41D8 /* HTTPConnection.m */,
-				BBC221A3C84E28689F57BC4F942B2789 /* HTTPLogging.h */,
-				9E3BE9AEBEAA0C8EE839F1798022CECF /* HTTPMessage.h */,
-				CD788BA75A365126C9108E84F099376A /* HTTPMessage.m */,
-				634E0AF0DD8B3438B301314234854DEB /* HTTPResponse.h */,
-				F43881A29CCEA1CA527E6D5A0B27BC9B /* HTTPServer.h */,
-				F393BB5623AFF32CA45BF2AC8908BA06 /* HTTPServer.m */,
-				39D6C031404E9656482A4ECB8F7F7B02 /* WebSocket.h */,
-				47EAC9110BDEEB9A219831A4DB249E97 /* WebSocket.m */,
-				E55E6DCC8533E4F70763AA8CCDA50700 /* Categories */,
-				9ECFDE91257FB70A54D0F029E0EAFC52 /* Mime */,
-				896019912D20264D62EB499B08311881 /* Responses */,
+				B6BACBEA802F5F87105313E7EF7D53D8 /* HTTPAsyncFileResponse.h */,
+				9EB81E2DC1314B80A38878F6EC1B71CC /* HTTPAsyncFileResponse.m */,
+				90E09CB76B6FF5D7D5D2395BEF3C3E86 /* HTTPDataResponse.h */,
+				A62B0AC0B47E33EA2B4E251C55C8F977 /* HTTPDataResponse.m */,
+				9C41D8E604348A3995D39C5067FDF471 /* HTTPDynamicFileResponse.h */,
+				15E581ED2026D40F9118A043BA49CB19 /* HTTPDynamicFileResponse.m */,
+				792E8F3376BD3143CB717D0462B97853 /* HTTPErrorResponse.h */,
+				AE54B8BE4B90B7CF05916D70ADA4307D /* HTTPErrorResponse.m */,
+				12A7983BC1B68F4C0FC0F510EFC0DD56 /* HTTPFileResponse.h */,
+				5F1ADC88686260573E529BEC3EC46502 /* HTTPFileResponse.m */,
+				4735FB35D14E4019247D496C67CEAD6A /* HTTPRedirectResponse.h */,
+				C1E1042C5C53A42378ADEF1147D58BBB /* HTTPRedirectResponse.m */,
 			);
-			name = CocoaHTTPServer;
-			path = CocoaHTTPServer;
+			name = Responses;
+			path = Responses;
 			sourceTree = "<group>";
 		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
@@ -414,86 +585,71 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		75B13D17A2CFAD24541129E097ECF6BC /* Products */ = {
+		75EA5219D8B57B757865D641651B2BA9 /* LWWebLoader */ = {
 			isa = PBXGroup;
 			children = (
-				FF2353DF8D949E2CBC8717A14FDE8A25 /* LWWebSocket.bundle */,
-				D1A8CE5B368A9CB365BFD4008475FCE9 /* LWWebSocket.framework */,
-				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
-				9F8F28D9286303CA9857174D73A226C5 /* Pods_LWWebSocket_Example.framework */,
+				9F7A5A984022C3E3E9C1E7E6A9C2222D /* LWWebLoader.h */,
+				ADE2F97AD38C8C37030076CD20B8FC90 /* LWWebLoader.m */,
+				253A7D90E23E8AEA77DD4A5B30B84C0F /* Pod */,
+				45AA1FA49CDA1EEC310A0F65DAF2B240 /* Resources */,
+				311975C530CF22E6FDB9653481DC6008 /* Support Files */,
 			);
-			name = Products;
+			name = LWWebLoader;
+			path = ../../../lwwebloader;
 			sourceTree = "<group>";
 		};
-		75C3CAE15187CC52BD08FC322128333F /* CocoaAsyncSocket */ = {
+		885BF2D80AFD5D1DA567879B5591B98A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A1D1452219472F2A08CB30D18B8EEA64 /* GCDAsyncSocket.h */,
-				B07EA2E0E1F2C1CDA65E4F03D4B7010F /* GCDAsyncSocket.m */,
+				C3236F5D6AA027ABC1897E4096C68DE3 /* ContextFilterLogFormatter.h */,
+				9FCEC249CF8E7101ACEA25361AF16264 /* ContextFilterLogFormatter.m */,
+				B715BE80E484646D105A5D422C5BBE73 /* DispatchQueueLogFormatter.h */,
+				7B52EF129C21CA1AEBA4C83E4D85EB95 /* DispatchQueueLogFormatter.m */,
 			);
-			name = CocoaAsyncSocket;
-			path = CocoaAsyncSocket;
+			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		896019912D20264D62EB499B08311881 /* Responses */ = {
+		8D267D4EFA0457F919B7E3EE6F30DEBA /* CocoaLumberjack */ = {
 			isa = PBXGroup;
 			children = (
-				9A224B3EAC946605751C1A03F861D3A4 /* HTTPAsyncFileResponse.h */,
-				7F09F2F5133AA4DEB0A698BFAB7F13AD /* HTTPAsyncFileResponse.m */,
-				EABF5475A4CD38167FD312479085AA73 /* HTTPDataResponse.h */,
-				7F81F86CA505BE26B6534FBC1AA5E360 /* HTTPDataResponse.m */,
-				80CBECCAA741428F5DDBD6570DEE19E5 /* HTTPDynamicFileResponse.h */,
-				AEE6F355B3D6B1FD081F322B33E227BF /* HTTPDynamicFileResponse.m */,
-				6E443DAC02F7CAC045401497BD457AF7 /* HTTPErrorResponse.h */,
-				F6704F5349C2B6DA9DFE2AFDB506F8FE /* HTTPErrorResponse.m */,
-				269827306896695CC1C59D7E511F0E73 /* HTTPFileResponse.h */,
-				9BF3A0E692182202FC65181991AD06A2 /* HTTPFileResponse.m */,
-				FF56B62D4845DF32ACE1707D98B92A61 /* HTTPRedirectResponse.h */,
-				466DB7691F8B5441770F05314D6C9F43 /* HTTPRedirectResponse.m */,
+				182746766B6C88DB70FCC66C05B0C14A /* DDAbstractDatabaseLogger.h */,
+				1355B27093AB2CB9F7A8DAE36DC8E02B /* DDAbstractDatabaseLogger.m */,
+				AA5FE72A3236CC7EAB78255C9135BF81 /* DDASLLogger.h */,
+				157E68595474E7B0DBDC2CFB58DF7CC6 /* DDASLLogger.m */,
+				B725269D551431B44F12A463308BF415 /* DDFileLogger.h */,
+				DFED0BFD9087E8D109F962534DE2D97F /* DDFileLogger.m */,
+				150FCB94AB102CA819B009BEC8682A4A /* DDLog.h */,
+				741CCF80EFE933481BDEFBC7C6F11367 /* DDLog.m */,
+				5086F66BAFF3E60D4F1C9ECD04F0BC59 /* DDTTYLogger.h */,
+				9F45CD6B3CB72A12954F557343CADB5C /* DDTTYLogger.m */,
+				885BF2D80AFD5D1DA567879B5591B98A /* Extensions */,
 			);
-			name = Responses;
-			path = Responses;
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
-		935D2E12DCC3CB8B9D295FA4B0EDC3A1 /* Classes */ = {
+		A2AFAC573E6FA4653A7124BA4C575759 /* LWWebSocket */ = {
 			isa = PBXGroup;
 			children = (
-				E34B4FAFB405E578BA6B8FC23851EE73 /* WebSocketManager.h */,
-				6D0C6F0E71F7B27D7658242CB61C89B5 /* WebSocketManager.m */,
+				C1D8EDEF2FE572125643C84F46695C54 /* Classes */,
+				04037A6299ABDD815A95BB28071AC4AF /* Library */,
+				D3565524331EDA079CE62C11B6B88B9E /* Pod */,
+				B7A572D61819BE60B19DD8146795ADE0 /* Resources */,
+				F6BC5550D94ABE5BB99B57E5D6E3F0DA /* Support Files */,
 			);
-			name = Classes;
-			path = LWWebSocket/Classes;
+			name = LWWebSocket;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		9ECFDE91257FB70A54D0F029E0EAFC52 /* Mime */ = {
+		B7A572D61819BE60B19DD8146795ADE0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DFB697AEFA48EFE05C45D22A8B4C5A3B /* MultipartFormDataParser.h */,
-				493D9547CAFABD337C9BBF459BD33F59 /* MultipartFormDataParser.m */,
-				4342E199DE20ACA30267A9ED360E214D /* MultipartMessageHeader.h */,
-				FE4A67B70346056FDD0A850FAF79052B /* MultipartMessageHeader.m */,
-				2325A946699EF59882B8E1CB721298C4 /* MultipartMessageHeaderField.h */,
-				4F81E7C2984B6AF33FF4C8C1A79DB0F0 /* MultipartMessageHeaderField.m */,
+				90EB806EFDE07809DE487EA1CFD4140B /* index.html */,
+				B777D53777F6E020D7F518D778DE7F6B /* jquery-1.9.0.min.js */,
+				7E00C682A4404C567A8DBA910B863430 /* websocket.html */,
 			);
-			name = Mime;
-			path = Mime;
-			sourceTree = "<group>";
-		};
-		A693429D9EDE4CEEEAEB8806F07C347F /* Pods-LWWebSocket_Example */ = {
-			isa = PBXGroup;
-			children = (
-				3C7CDF9153C2A35F6693A9F94D815B78 /* Pods-LWWebSocket_Example.modulemap */,
-				795EF490C6A66D575B01B24273F30B46 /* Pods-LWWebSocket_Example-acknowledgements.markdown */,
-				3CC83FD3DE78EBB544C8FC912013ED0C /* Pods-LWWebSocket_Example-acknowledgements.plist */,
-				573890F79434451C60FB8F3968862406 /* Pods-LWWebSocket_Example-dummy.m */,
-				D63F8AFC8C8E03992C990B36156B26CD /* Pods-LWWebSocket_Example-frameworks.sh */,
-				66DC1EC50A8028A1EFB73B5A8BEB91BF /* Pods-LWWebSocket_Example-Info.plist */,
-				5969F1C7169EA46EDC9FFF0BEE397CE3 /* Pods-LWWebSocket_Example-umbrella.h */,
-				AF70D4B61DA0B4EC80F1732BF53CE7D0 /* Pods-LWWebSocket_Example.debug.xcconfig */,
-				9198CF610AC92D5BA662AB6D6565F240 /* Pods-LWWebSocket_Example.release.xcconfig */,
-			);
-			name = "Pods-LWWebSocket_Example";
-			path = "Target Support Files/Pods-LWWebSocket_Example";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
@@ -510,49 +666,59 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		CB0443A74CF24943C43D43870D34BBA5 /* Pod */ = {
+		C1D8EDEF2FE572125643C84F46695C54 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				754D500BFB4B603894E72D19C5FD2CBD /* LICENSE */,
-				B8C32A93BEAF96BEDFE5DDE29BA354BA /* LWWebSocket.podspec */,
-				1842806412CAFD5F0F61B3767B401591 /* README.md */,
+				DBEB57D034649E63A29C6BE72F1E3256 /* WebSocketManager.h */,
+				8DF1218A7FAB41EF22A8D9752F1A6BF3 /* WebSocketManager.m */,
 			);
-			name = Pod;
+			name = Classes;
+			path = LWWebSocket/Classes;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E57E5F0B4326C00758E9CCB2A3677219 /* Development Pods */,
+				2111708D530FD0EEC7C549461941A63F /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				75B13D17A2CFAD24541129E097ECF6BC /* Products */,
-				1403737426E9347E551CD76BEC091516 /* Targets Support Files */,
+				5C5FDDF956C81B1BC14070C26A120B9A /* Products */,
+				5B03A2CF84CB43A7067B224B8548A813 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CFD7A3B1D2371B2C81F538949D734974 /* Library */ = {
+		D3565524331EDA079CE62C11B6B88B9E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				75C3CAE15187CC52BD08FC322128333F /* CocoaAsyncSocket */,
-				6FC49E585ECCC4B33CDFCB196F722EC5 /* CocoaHTTPServer */,
-				11890D36A108C56F1AD0F8F2BE65494F /* CocoaLumberjack */,
+				88EEA3F6E51574B153532E6D43EFF8B0 /* LICENSE */,
+				952A976680562B140179BC3E63073A73 /* LWWebSocket.podspec */,
+				8CC352849FF0E5E38E031D8D9180CF0C /* README.md */,
 			);
-			name = Library;
-			path = LWWebSocket/Library;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		D0312479BF74F386DF5F7C872752284E /* Extensions */ = {
+		DDDA5EB882B389C932A04FFB974E99FF /* CocoaHTTPServer */ = {
 			isa = PBXGroup;
 			children = (
-				07DFCEB3AB99EDA75CB2A8ECD6FF8080 /* ContextFilterLogFormatter.h */,
-				F1A1F6F6214FFF3E83B281DA61289BFB /* ContextFilterLogFormatter.m */,
-				0467A234BFE667C3CCC194D386CCE112 /* DispatchQueueLogFormatter.h */,
-				40698F6279B6A16DC32EB4D5932B9A47 /* DispatchQueueLogFormatter.m */,
+				880A1AA20F46387EB1268486903E04BA /* HTTPAuthenticationRequest.h */,
+				46B83A2FC09BB7D2C733CB42AE530B13 /* HTTPAuthenticationRequest.m */,
+				9A04B1D95604A6E8EE6783873B87188A /* HTTPConnection.h */,
+				A901B73BEB18B157109CF498A5A7F872 /* HTTPConnection.m */,
+				EFAFF4C2B0EB6B0B93868B78B5FE1DF4 /* HTTPLogging.h */,
+				49BA8D9F15D81A86BA46CD4C02C80F42 /* HTTPMessage.h */,
+				88342A9C7C64DBDC37E0F3CDD2A50909 /* HTTPMessage.m */,
+				18E288B63B7843A24EB15813577A2CCE /* HTTPResponse.h */,
+				2D746D3BECDFDF4B2E8573941EC308F5 /* HTTPServer.h */,
+				2B5D5C2B8DB1F7C60A07D15DA4D21399 /* HTTPServer.m */,
+				323B03CA4D8D499E8A55C21E19A8FFCC /* WebSocket.h */,
+				0CB5AA5D91EBE72739EA36909E2FE44E /* WebSocket.m */,
+				331FD0067B5885A3714531FB074E9DCC /* Categories */,
+				F258F8F150E2CA3E7EA56CD95DF429E0 /* Mime */,
+				6D9824962C1335361DAE0980DC392764 /* Responses */,
 			);
-			name = Extensions;
-			path = Extensions;
+			name = CocoaHTTPServer;
+			path = CocoaHTTPServer;
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -564,26 +730,60 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E55E6DCC8533E4F70763AA8CCDA50700 /* Categories */ = {
+		EF5C42D3B42171A661ED495ABB2ACEE3 /* Pods-LWWebSocket_Example */ = {
 			isa = PBXGroup;
 			children = (
-				9FC3A20CD6CB253C61799C843999ED1E /* DDData.h */,
-				7DFD167E23370654B40A5F74F44D5117 /* DDData.m */,
-				CF3BD07B732DD20BE40808713827F528 /* DDNumber.h */,
-				0B1B27ABADBDD6C36B49E2A5B35EADDD /* DDNumber.m */,
-				FF5FCE9620D6E8B2B1A1B7465F44616F /* DDRange.h */,
-				A9B66594BC2CF5BF5F0D7A5B38876CE2 /* DDRange.m */,
+				C82510AA515094DFEF8B7D6120ADDA3C /* Pods-LWWebSocket_Example.modulemap */,
+				FA027034B1412A9AA4A56F870B03D409 /* Pods-LWWebSocket_Example-acknowledgements.markdown */,
+				8D05047227425F898D41CD52ED5B5B8C /* Pods-LWWebSocket_Example-acknowledgements.plist */,
+				3C92F936ABE34D230273753CB3006466 /* Pods-LWWebSocket_Example-dummy.m */,
+				23BFF440E3F8CEBF4F5E28458B965E62 /* Pods-LWWebSocket_Example-frameworks.sh */,
+				DC4EAF18053F90ED2D1B90F941D623CF /* Pods-LWWebSocket_Example-Info.plist */,
+				D4A65C88B6C80490DBAD2F2E958E91A1 /* Pods-LWWebSocket_Example-umbrella.h */,
+				40C47DF64AF3E3FF07E0F1564947A22F /* Pods-LWWebSocket_Example.debug.xcconfig */,
+				44D5A4F3E840CB63C2106227B88498A9 /* Pods-LWWebSocket_Example.release.xcconfig */,
 			);
-			name = Categories;
-			path = Categories;
+			name = "Pods-LWWebSocket_Example";
+			path = "Target Support Files/Pods-LWWebSocket_Example";
 			sourceTree = "<group>";
 		};
-		E57E5F0B4326C00758E9CCB2A3677219 /* Development Pods */ = {
+		F258F8F150E2CA3E7EA56CD95DF429E0 /* Mime */ = {
 			isa = PBXGroup;
 			children = (
-				070FDFF2D032AEDD401C52609C7777F3 /* LWWebSocket */,
+				C1FBC3F17157C16FB93754970C492FA5 /* MultipartFormDataParser.h */,
+				18D01271A7E5C492A25400611567F06B /* MultipartFormDataParser.m */,
+				819AEBDF6AF0B378CE8747FC42877091 /* MultipartMessageHeader.h */,
+				238177A42EF970C8499CE94794BBBA84 /* MultipartMessageHeader.m */,
+				F4492905D759C38C983A945D18FE96A5 /* MultipartMessageHeaderField.h */,
+				577A6F36D19CEF00B02DA8F7103C3788 /* MultipartMessageHeaderField.m */,
 			);
-			name = "Development Pods";
+			name = Mime;
+			path = Mime;
+			sourceTree = "<group>";
+		};
+		F6BC5550D94ABE5BB99B57E5D6E3F0DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				943E92D75F20FBC827F3E3004785B061 /* LWWebSocket.modulemap */,
+				8B531825D946A1326E4A8233067D01A6 /* LWWebSocket.xcconfig */,
+				BD8B669BE295FB62DCC7BDC2177CF683 /* LWWebSocket-dummy.m */,
+				521F4818845286123705A2CA68B8AAC4 /* LWWebSocket-Info.plist */,
+				139F3347C49382B7DA28409BD137CFC5 /* LWWebSocket-prefix.pch */,
+				6E9E2C0A09F6991C1E37E2FB706E897C /* LWWebSocket-umbrella.h */,
+				702DA6CFBC9A667AA03B11C9CC165C06 /* ResourceBundle-LWWebSocket-LWWebSocket-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LWWebSocket";
+			sourceTree = "<group>";
+		};
+		F9B5A95642DBE294D26B6AD9444F4E63 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				4FF0B68888121BA7B91B7F008DB1C114 /* GCDAsyncSocket.h */,
+				5360701B2EB8F103DD49112ECC96F715 /* GCDAsyncSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -625,11 +825,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C998F24B15F3C003CB2AB4B52F585A0 /* Headers */ = {
+		33C3BB1F7AEDC01B384C760CF83BCF5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B88EF545999D2E4663B1129DFF619A /* Pods-LWWebSocket_Example-umbrella.h in Headers */,
+				630DC131A8CC1356B9A145589F8D0803 /* LWWebLoader-umbrella.h in Headers */,
+				6B616F27653690B03ED5424CA79915A3 /* LWWebLoader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9F200A542D8175187B74777387A3A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CA5EE61A6CA5F940D9C2116658E5D0 /* Pods-LWWebSocket_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +862,14 @@
 				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
 				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
 				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801F897D956C72A5B1FB5588486F3BEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD2012B750ED9D891AC7D088C6228B1 /* Pods-XXKeyboard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,13 +913,50 @@
 			productReference = D1A8CE5B368A9CB365BFD4008475FCE9 /* LWWebSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		760276DD7F52B8C4BAC3A7FD48563620 /* LWWebLoader-LWWebLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62104F306C7FA3DB1F8DCD5D014D5891 /* Build configuration list for PBXNativeTarget "LWWebLoader-LWWebLoader" */;
+			buildPhases = (
+				C56FFAD2C8586253CDAAE47FC44ADF82 /* Sources */,
+				BEADF210028F55A1DA04542C4351F588 /* Frameworks */,
+				9E04729A768DD74791ECFEC06ED8E41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LWWebLoader-LWWebLoader";
+			productName = "LWWebLoader-LWWebLoader";
+			productReference = BE807EF431971F91F9933B9AAF866E91 /* LWWebLoader.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8353E94FC72E8EE1F62FFB405408C281 /* Pods-XXKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613EBFE19661708629FBF2F1F7B5E01B /* Build configuration list for PBXNativeTarget "Pods-XXKeyboard" */;
+			buildPhases = (
+				801F897D956C72A5B1FB5588486F3BEA /* Headers */,
+				576FB6589849BFE40546C241143D60F3 /* Sources */,
+				4E201897BC47EE17AB03B12972C16EEF /* Frameworks */,
+				C523B7FCFD74F701916B35B1F435593F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				627B4D9C9249D9D8DAB38FDA926EA837 /* PBXTargetDependency */,
+				550F70FEC9DF523ADAAC43854247BC7C /* PBXTargetDependency */,
+			);
+			name = "Pods-XXKeyboard";
+			productName = "Pods-XXKeyboard";
+			productReference = 909D41359D65C14DD9B8169B7A7A018F /* Pods_XXKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8931CDD19F40B32978660F66E1517733 /* LWWebSocket-LWWebSocket */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 730AF47835B494C6DA4464AD62D219A4 /* Build configuration list for PBXNativeTarget "LWWebSocket-LWWebSocket" */;
 			buildPhases = (
 				11B1B52825A481C8C852967BFE507317 /* Sources */,
 				E9BFD8282A338712759C3CE1CFE5F9D6 /* Frameworks */,
-				CD74F4C732BE5B9EF8F87D7B22B213D5 /* Resources */,
+				8B5425C376A17C79A6E57529A9717A3F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -713,20 +967,40 @@
 			productReference = FF2353DF8D949E2CBC8717A14FDE8A25 /* LWWebSocket.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		BAD2170E5A7A7B04A772B24E1B509310 /* Pods-LWWebSocket_Example */ = {
+		A21DA2A1A44E4279A1FE0DA9FA24BC22 /* LWWebLoader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1944A4CF7120AD54DE97E006C8E65D5 /* Build configuration list for PBXNativeTarget "Pods-LWWebSocket_Example" */;
+			buildConfigurationList = E099870C11BA5E4E8171EAEACBD595E5 /* Build configuration list for PBXNativeTarget "LWWebLoader" */;
 			buildPhases = (
-				5C998F24B15F3C003CB2AB4B52F585A0 /* Headers */,
-				E380AC7D529BBE02A9D5F3F880F980C4 /* Sources */,
-				04DA6AB9CF3E3E62DF15C75EF8986EAA /* Frameworks */,
-				0ADBE9E3839085C72059F869CD8D0CE2 /* Resources */,
+				33C3BB1F7AEDC01B384C760CF83BCF5E /* Headers */,
+				A082BBAFBC676B3163986C9E279499A0 /* Sources */,
+				10F96C4FD761EF7E113DFE1628779A57 /* Frameworks */,
+				656F31939C24F6B5D1DA72C2701DF67E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9234BE4A7BF574B296F1E6216FEA342F /* PBXTargetDependency */,
-				F0532B98555DA1F3CC4986717DC574D0 /* PBXTargetDependency */,
+				E63489A451CBCE9FF6D45A3150741CEF /* PBXTargetDependency */,
+			);
+			name = LWWebLoader;
+			productName = LWWebLoader;
+			productReference = 159483483A21B971847E2900F88CD00C /* LWWebLoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAD2170E5A7A7B04A772B24E1B509310 /* Pods-LWWebSocket_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606E3E420EDCD7733BDA3CEC736133F5 /* Build configuration list for PBXNativeTarget "Pods-LWWebSocket_Example" */;
+			buildPhases = (
+				3D9F200A542D8175187B74777387A3A9 /* Headers */,
+				B22DBFB9A95C1BF83E20A5B52DA50F46 /* Sources */,
+				7F2BD384BA397B4F48B18D1D0A9FBB2E /* Frameworks */,
+				ABA841C361CCD1942A00AB697A51DE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9FE081A6F31C4D945CB3F9E9781BBED /* PBXTargetDependency */,
+				FEC2E19FE7059F25747824AD38972E70 /* PBXTargetDependency */,
+				7585216EE1FC51C5A3693B1706479677 /* PBXTargetDependency */,
 			);
 			name = "Pods-LWWebSocket_Example";
 			productName = "Pods-LWWebSocket_Example";
@@ -750,23 +1024,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 75B13D17A2CFAD24541129E097ECF6BC /* Products */;
+			productRefGroup = 5C5FDDF956C81B1BC14070C26A120B9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A21DA2A1A44E4279A1FE0DA9FA24BC22 /* LWWebLoader */,
+				760276DD7F52B8C4BAC3A7FD48563620 /* LWWebLoader-LWWebLoader */,
 				735E988447B169273C4AA6C898EA854D /* LWWebSocket */,
 				8931CDD19F40B32978660F66E1517733 /* LWWebSocket-LWWebSocket */,
 				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				BAD2170E5A7A7B04A772B24E1B509310 /* Pods-LWWebSocket_Example */,
+				8353E94FC72E8EE1F62FFB405408C281 /* Pods-XXKeyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0ADBE9E3839085C72059F869CD8D0CE2 /* Resources */ = {
+		656F31939C24F6B5D1DA72C2701DF67E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C666CC47D07855A42AC2C0BD62DB662 /* LWWebLoader.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,12 +1063,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD74F4C732BE5B9EF8F87D7B22B213D5 /* Resources */ = {
+		8B5425C376A17C79A6E57529A9717A3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A63E36C1271E9DC84657B333DECE9248 /* index.html in Resources */,
-				E06CE348E7F1592C6C1BEE623DA82AEE /* jquery-1.9.0.min.js in Resources */,
+				4C6C24B4179AB3DE3F2D8116F32CD1BD /* index.html in Resources */,
+				E8FF10601B6C983DAAA0085D3368B65C /* jquery-1.9.0.min.js in Resources */,
+				94BC6F643D1B421026D7441E993692A5 /* websocket.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E04729A768DD74791ECFEC06ED8E41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901914263CF2A153772477644E9B7AB8 /* 2019111817539.zip in Resources */,
+				03EF576A6F2963EF33CCF4E78C44598F /* aaaa.zip in Resources */,
+				5B8B890D6EA6D2C69B75584CE3F6C9EF /* data.txt in Resources */,
+				8DC4A3A60C1A56A1B1FBD02D4F652387 /* influence.pdf in Resources */,
+				9102CB287D981EBED7C1553C1B432156 /* loader.html in Resources */,
+				55FBE6C6EFCA5AB549EF18DF69B1CD88 /* mitm.html in Resources */,
+				CC08C38BB72B25D0899BE0DB274B5969 /* mylib.js in Resources */,
+				7FB0B07C1DC5148B94D88D25C2874877 /* ponyfill.min.js in Resources */,
+				EBF2527C1198B61BC8A31CFFAA0F41A2 /* pyserver.py in Resources */,
+				26607138696997C9F60F321A45703144 /* pyserver_upload.py in Resources */,
+				DC1CE9551B6DE646B8211563B3BBBE8B /* python_server.py in Resources */,
+				51B3D9415C252CC10F72B741479320D0 /* StreamSaver.js in Resources */,
+				F7FCD81EB24F3778BEBAA641601E1180 /* sw.js in Resources */,
+				0E99FC979655C82158696483AE2AD991 /* test.json in Resources */,
+				18AF2E076B6BBAD306C6A90F593D5B40 /* test.zip in Resources */,
+				EC7DC12E33142807B1E5F6C450C29FED /* websocket.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA841C361CCD1942A00AB697A51DE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C523B7FCFD74F701916B35B1F435593F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,22 +1172,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E380AC7D529BBE02A9D5F3F880F980C4 /* Sources */ = {
+		576FB6589849BFE40546C241143D60F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				429DB183AF69F5327C6283867D504562 /* Pods-LWWebSocket_Example-dummy.m in Sources */,
+				382A3E89B8FB1808C71607A6C3CF1F21 /* Pods-XXKeyboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A082BBAFBC676B3163986C9E279499A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF124E56544DF218651E4E0B5ABD12C /* LWWebLoader-dummy.m in Sources */,
+				26E243DB32A968D3B9BD22127B6DDFE4 /* LWWebLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22DBFB9A95C1BF83E20A5B52DA50F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09499C6D2457E89430B3C4A31A56B37E /* Pods-LWWebSocket_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56FFAD2C8586253CDAAE47FC44ADF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9234BE4A7BF574B296F1E6216FEA342F /* PBXTargetDependency */ = {
+		550F70FEC9DF523ADAAC43854247BC7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LWWebSocket;
 			target = 735E988447B169273C4AA6C898EA854D /* LWWebSocket */;
-			targetProxy = FC3E72D8339CC26949C07964481F81EE /* PBXContainerItemProxy */;
+			targetProxy = A11EC80B16199AC05ED8E6A9CFB295FD /* PBXContainerItemProxy */;
+		};
+		627B4D9C9249D9D8DAB38FDA926EA837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LWWebLoader;
+			target = A21DA2A1A44E4279A1FE0DA9FA24BC22 /* LWWebLoader */;
+			targetProxy = 0A0D79CF921EC14342C229A60A94BB11 /* PBXContainerItemProxy */;
+		};
+		7585216EE1FC51C5A3693B1706479677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = E9D96321BE9A9D9C7B7A3F1371E59974 /* PBXContainerItemProxy */;
+		};
+		C9FE081A6F31C4D945CB3F9E9781BBED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LWWebLoader;
+			target = A21DA2A1A44E4279A1FE0DA9FA24BC22 /* LWWebLoader */;
+			targetProxy = 770A0A916F68204CEA2536111123579B /* PBXContainerItemProxy */;
 		};
 		CD3E8D51B178618FB7828CC2ACC20508 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -879,18 +1237,58 @@
 			target = 8931CDD19F40B32978660F66E1517733 /* LWWebSocket-LWWebSocket */;
 			targetProxy = 7CBB39AE571E4F6E98DFC6A6E143D9F2 /* PBXContainerItemProxy */;
 		};
-		F0532B98555DA1F3CC4986717DC574D0 /* PBXTargetDependency */ = {
+		E63489A451CBCE9FF6D45A3150741CEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = E9E825EF60A74C2F029EFE544D9B233B /* PBXContainerItemProxy */;
+			name = "LWWebLoader-LWWebLoader";
+			target = 760276DD7F52B8C4BAC3A7FD48563620 /* LWWebLoader-LWWebLoader */;
+			targetProxy = 450E3F64C60CFF5B8F06C1B1C1C3F931 /* PBXContainerItemProxy */;
+		};
+		FEC2E19FE7059F25747824AD38972E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LWWebSocket;
+			target = 735E988447B169273C4AA6C898EA854D /* LWWebSocket */;
+			targetProxy = 38655446FDDD1FB603976CBB8A920DF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C4A4565366BBD9A2652DC367714F17E /* Debug */ = {
+		01B19030D48A2A6FF693D53D57020496 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF70D4B61DA0B4EC80F1732BF53CE7D0 /* Pods-LWWebSocket_Example.debug.xcconfig */;
+			baseConfigurationReference = 2310587FAFAE924A88B974DAC9D50816 /* Pods-XXKeyboard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XXKeyboard/Pods-XXKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXKeyboard/Pods-XXKeyboard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0999B6E9BDFBA7423B06FB0C1A27620E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D5A4F3E840CB63C2106227B88498A9 /* Pods-LWWebSocket_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -904,7 +1302,135 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LWWebSocket_Example/Pods-LWWebSocket_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LWWebSocket_Example/Pods-LWWebSocket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16D11B4A16981A7A176A3B3B955C0801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667FDDEDCA61677143178B53A53E3EDF /* LWWebLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWWebLoader/LWWebLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWWebLoader/LWWebLoader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LWWebLoader/LWWebLoader.modulemap";
+				PRODUCT_MODULE_NAME = LWWebLoader;
+				PRODUCT_NAME = LWWebLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C91E4DDAD9502FB198DD6C13E59EF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667FDDEDCA61677143178B53A53E3EDF /* LWWebLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWWebLoader/LWWebLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWWebLoader/LWWebLoader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LWWebLoader/LWWebLoader.modulemap";
+				PRODUCT_MODULE_NAME = LWWebLoader;
+				PRODUCT_NAME = LWWebLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2191D9CB354F4E9F54F90BC3CE8EF557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B2114B354DDE876219DEC9D1F78642 /* Pods-XXKeyboard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XXKeyboard/Pods-XXKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXKeyboard/Pods-XXKeyboard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C566D900389CF8BD4C3CCFB51C85367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C47DF64AF3E3FF07E0F1564947A22F /* Pods-LWWebSocket_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LWWebSocket_Example/Pods-LWWebSocket_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LWWebSocket_Example/Pods-LWWebSocket_Example.modulemap";
@@ -921,7 +1447,170 @@
 			};
 			name = Debug;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		50C95F0090CE15C9355C6C1DE2C9E758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667FDDEDCA61677143178B53A53E3EDF /* LWWebLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LWWebLoader";
+				IBSC_MODULE = LWWebLoader;
+				INFOPLIST_FILE = "Target Support Files/LWWebLoader/ResourceBundle-LWWebLoader-LWWebLoader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LWWebLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A305FCE69F8B9E1F9E792040D09FF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B531825D946A1326E4A8233067D01A6 /* LWWebSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LWWebSocket";
+				IBSC_MODULE = LWWebSocket;
+				INFOPLIST_FILE = "Target Support Files/LWWebSocket/ResourceBundle-LWWebSocket-LWWebSocket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LWWebSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6DA589595CF73133EC90D9E865DE5E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B531825D946A1326E4A8233067D01A6 /* LWWebSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWWebSocket/LWWebSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWWebSocket/LWWebSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LWWebSocket/LWWebSocket.modulemap";
+				PRODUCT_MODULE_NAME = LWWebSocket;
+				PRODUCT_NAME = LWWebSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77BFB9A56A6C8D7D6C0332ED0EA50AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B531825D946A1326E4A8233067D01A6 /* LWWebSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LWWebSocket";
+				IBSC_MODULE = LWWebSocket;
+				INFOPLIST_FILE = "Target Support Files/LWWebSocket/ResourceBundle-LWWebSocket-LWWebSocket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LWWebSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8280B96E664015A90DB668C827A5F389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667FDDEDCA61677143178B53A53E3EDF /* LWWebLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LWWebLoader";
+				IBSC_MODULE = LWWebLoader;
+				INFOPLIST_FILE = "Target Support Files/LWWebLoader/ResourceBundle-LWWebLoader-LWWebLoader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LWWebLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -969,7 +1658,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -981,105 +1670,7 @@
 			};
 			name = Release;
 		};
-		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5A305FCE69F8B9E1F9E792040D09FF22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF55163AEA8911315109FA4687A0E2FF /* LWWebSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LWWebSocket";
-				IBSC_MODULE = LWWebSocket;
-				INFOPLIST_FILE = "Target Support Files/LWWebSocket/ResourceBundle-LWWebSocket-LWWebSocket-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = LWWebSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6DA589595CF73133EC90D9E865DE5E32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF55163AEA8911315109FA4687A0E2FF /* LWWebSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LWWebSocket/LWWebSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LWWebSocket/LWWebSocket-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LWWebSocket/LWWebSocket.modulemap";
-				PRODUCT_MODULE_NAME = LWWebSocket;
-				PRODUCT_NAME = LWWebSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		77BFB9A56A6C8D7D6C0332ED0EA50AF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF55163AEA8911315109FA4687A0E2FF /* LWWebSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LWWebSocket";
-				IBSC_MODULE = LWWebSocket;
-				INFOPLIST_FILE = "Target Support Files/LWWebSocket/ResourceBundle-LWWebSocket-LWWebSocket-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = LWWebSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1130,7 +1721,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1143,40 +1734,9 @@
 			};
 			name = Debug;
 		};
-		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		935FDC5F82C53CC3986262DD66E77067 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF55163AEA8911315109FA4687A0E2FF /* LWWebSocket.xcconfig */;
+			baseConfigurationReference = 8B531825D946A1326E4A8233067D01A6 /* LWWebSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1205,48 +1765,41 @@
 			};
 			name = Debug;
 		};
-		F81321A0442314A15D50E2CBA63459B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9198CF610AC92D5BA662AB6D6565F240 /* Pods-LWWebSocket_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LWWebSocket_Example/Pods-LWWebSocket_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LWWebSocket_Example/Pods-LWWebSocket_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606E3E420EDCD7733BDA3CEC736133F5 /* Build configuration list for PBXNativeTarget "Pods-LWWebSocket_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C566D900389CF8BD4C3CCFB51C85367 /* Debug */,
+				0999B6E9BDFBA7423B06FB0C1A27620E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613EBFE19661708629FBF2F1F7B5E01B /* Build configuration list for PBXNativeTarget "Pods-XXKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2191D9CB354F4E9F54F90BC3CE8EF557 /* Debug */,
+				01B19030D48A2A6FF693D53D57020496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62104F306C7FA3DB1F8DCD5D014D5891 /* Build configuration list for PBXNativeTarget "LWWebLoader-LWWebLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C95F0090CE15C9355C6C1DE2C9E758 /* Debug */,
+				8280B96E664015A90DB668C827A5F389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1269,11 +1822,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1944A4CF7120AD54DE97E006C8E65D5 /* Build configuration list for PBXNativeTarget "Pods-LWWebSocket_Example" */ = {
+		E099870C11BA5E4E8171EAEACBD595E5 /* Build configuration list for PBXNativeTarget "LWWebLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C4A4565366BBD9A2652DC367714F17E /* Debug */,
-				F81321A0442314A15D50E2CBA63459B4 /* Release */,
+				16D11B4A16981A7A176A3B3B955C0801 /* Debug */,
+				1C91E4DDAD9502FB198DD6C13E59EF1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

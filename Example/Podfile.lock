@@ -1,8 +1,10 @@
 PODS:
+  - LWWebLoader (0.1.0)
   - LWWebSocket (1.0.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - LWWebLoader (from `../../lwwebloader/`)
   - LWWebSocket (from `../`)
   - Masonry
 
@@ -11,13 +13,16 @@ SPEC REPOS:
     - Masonry
 
 EXTERNAL SOURCES:
+  LWWebLoader:
+    :path: "../../lwwebloader/"
   LWWebSocket:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LWWebSocket: 99e18982a18f3d0c40cfed8fbd2bbaae936ca2b0
+  LWWebLoader: ef2d258f437a691c75e856ae7e38a536f798aeb2
+  LWWebSocket: bc2edbb07812b7388f720dbcdf327a195ce044c1
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 2c4a756494c98e27d4e7a09281895cde1ef84d4e
+PODFILE CHECKSUM: 23c63a30970f2e18e248ec67da139ed19510269f
 
 COCOAPODS: 1.8.3

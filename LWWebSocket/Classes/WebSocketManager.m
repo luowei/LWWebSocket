@@ -6,29 +6,22 @@
 //  Copyright © 2017年 YY.inc. All rights reserved.
 //
 
-#import <JavaScriptCore/JavaScriptCore.h>
 #import "WebSocketManager.h"
 #import "HTTPConnection.h"
 #import "HTTPServer.h"
 #import "WebSocket.h"
 
 
-typedef NS_OPTIONS(uint32_t, LWSocketMessageType) {
-    SocketMessageType_Raw = 0,
-    SocketMessageType_Hello = 1,
-    SocketMessageType_HeartBeat = 1 << 1,
-    SocketMessageType_StreamStart = 1 << 2,
-    SocketMessageType_Streaming = 1 << 3,
-    SocketMessageType_StreamEnd = 1 << 4,
-    SocketMessageType_String = 1 << 5,
-    SocketMessageType_Data = 1 << 6,
-};
 
 @class MyWebSocket;
 
 @interface WebSocketManager ()<WebSocketDelegate>
 @property (nonatomic, strong) HTTPServer *httpServer;
 @property (nonatomic, weak) MyWebSocket *webSocket;
+
+@property(nonatomic, strong) NSOutputStream *dataStream;
+@property(nonatomic, copy) NSString *streamFilePath;
+@property(nonatomic, strong) NSError *streamError;
 - (NSString *)myURI;
 @end
 
@@ -127,7 +120,21 @@ typedef NS_OPTIONS(uint32_t, LWSocketMessageType) {
     return manager;
 }
 
-- (void)startServer {
+-(NSString *)streamFilePath {
+    if(!_streamFilePath){
+        _streamFilePath = [NSTemporaryDirectory() stringByAppendingPathComponent:NSUUID.UUID.UUIDString];
+    }
+    return _streamFilePath;
+}
+
+-(NSOutputStream *)dataStream {
+    if(!_dataStream){
+        _dataStream = [[NSOutputStream alloc] initToFileAtPath:self.streamFilePath append:YES];
+    }
+    return _dataStream;
+}
+
+- (void)startServerWithPort:(UInt16)port webPath:(NSString *)webPath {
     
     if (_httpServer.isRunning) {
         return;
@@ -145,15 +152,34 @@ typedef NS_OPTIONS(uint32_t, LWSocketMessageType) {
     // Normally there's no need to run our server on any specific port.
     // Technologies like Bonjour allow clients to dynamically discover the server's port at runtime.
     // However, for easy testing you may want force a certain port so you can just hit the refresh button.
-    [_httpServer setPort:12345];
-    
-    //	[httpServer setDocumentRoot:webPath];
-    
+    [_httpServer setPort:port];
+
+    //NSString *webPath = NSHomeDirectory();
+    NSString *documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
+    NSString *absWebPath = documentPath;
+    if(![webPath hasPrefix:@"/var"]){
+        absWebPath = [documentPath stringByAppendingPathComponent:webPath];
+    }else{
+        absWebPath = webPath;
+    }
+    BOOL isDirectory = NO;
+    BOOL existWebPath = [NSFileManager.defaultManager fileExistsAtPath:absWebPath isDirectory:&isDirectory];
+    if(!isDirectory || !existWebPath) { //文件夹不存在
+        NSError *error;
+        BOOL success = [NSFileManager.defaultManager createDirectoryAtPath:absWebPath withIntermediateDirectories:YES attributes:nil error:&error];
+        WSLog(@"success = %d，error = %@", success,error);
+        absWebPath = success ? absWebPath : documentPath;
+    }
+
+    [_httpServer setDocumentRoot:absWebPath];
+
+    WSLog(@"=====webpath:%@",webPath);
+
     // Start the server (and check for problems)
     
     NSError *error;
     if(![_httpServer start:&error]) {
-        NSLog(@"start server error:%@", error.localizedDescription);
+        WSLog(@"start server error:%@", error.localizedDescription);
     }
 }
 
@@ -168,26 +194,77 @@ typedef NS_OPTIONS(uint32_t, LWSocketMessageType) {
     return @"/service";
 }
 
--(BOOL)sendDataWithFilePath:(NSString *)filePath {
+-(BOOL)sendMessage:(NSString *)message {
     if(!self.webSocket){
         return NO;
     }
 
-    NSInputStream *inputStream = [[NSInputStream alloc] initWithFileAtPath:filePath];
-    uint8_t buffer[1024];
-    int len = 0;
-//    NSMutableString *total = [[NSMutableString alloc] init];
+    [self.webSocket sendMessage:message];
 
+    return YES;
+}
+
+-(BOOL)sendData:(NSData *)data {
+    if(!self.webSocket){
+        return NO;
+    }
+
+    NSMutableData *sendData = [self constructDataWithMessageType:SocketMessageType_Data];
+    [sendData appendData:data];
+    [self.webSocket sendData:sendData isBinary:YES];
+
+    return YES;
+}
+
+-(BOOL)sendDataWithFileURL:(NSURL *)fileURL {
+    if(!self.webSocket){
+        return NO;
+    }
+
+    NSMutableData *startData = [self constructDataWithMessageType:SocketMessageType_StreamStart];
+    [self.webSocket sendData:startData isBinary:YES];
+
+    NSError *error;
+    NSFileHandle * fileHandle = [NSFileHandle fileHandleForReadingFromURL:fileURL error:&error];
+    if(error){
+        WSLog(@"===error:%@",error.localizedDescription);
+    }
+    NSData * data = nil;
+    while ((data = [fileHandle readDataOfLength:10240])) {
+        if(data.length > 0){
+            NSMutableData *streamingData = [self constructDataWithMessageType:SocketMessageType_Streaming];
+            [streamingData appendData:data];
+            [self.webSocket sendData:streamingData isBinary:YES];
+        }else{
+            break;
+        }
+    }
+/*
+    NSInputStream *inputStream = [[NSInputStream alloc] initWithFileAtPath:filePath];
+    uint8_t buffer[10240];
+    int len = 0;
     while ([inputStream hasBytesAvailable]) {
         len = [inputStream read:buffer maxLength:sizeof(buffer)];
         if (len > 0) {
-            NSData *data = [NSData dataWithBytes:buffer length:(NSUInteger) len];
-            [self.webSocket sendData:data isBinary:YES];
-            //[total appendString:[[NSString alloc] initWithBytes:buffer length:(NSUInteger) len encoding:NSASCIIStringEncoding]];
+            NSMutableData *streamingData = [self constructDataWithMessageType:SocketMessageType_Streaming];
+            [streamingData appendBytes:buffer length:(NSUInteger)len];
+            [self.webSocket sendData:streamingData isBinary:YES];
         }
     }
+*/
+
+    NSMutableData *endData = [self constructDataWithMessageType:SocketMessageType_StreamEnd];
+    [self.webSocket sendData:endData isBinary:YES];
 
     return YES;
+}
+
+
+//构造数据头部
+- (NSMutableData *)constructDataWithMessageType:(uint32_t)messageType {
+    NSMutableData *data = [NSMutableData dataWithCapacity:0];
+    [data appendBytes:&messageType length:sizeof(uint32_t)];
+    return data;
 }
 
 
@@ -209,7 +286,7 @@ typedef NS_OPTIONS(uint32_t, LWSocketMessageType) {
 
 //连接打开
 - (void)webSocketDidOpen:(WebSocket *)ws {
-    NSLog(@"=======%s", __FUNCTION__);
+    WSLog(@"=======%s", __FUNCTION__);
 
     if([ws isKindOfClass:[MyWebSocket class]]){
         self.webSocket = (MyWebSocket *)ws;
@@ -221,22 +298,35 @@ typedef NS_OPTIONS(uint32_t, LWSocketMessageType) {
 
 //收到消息串
 - (void)webSocket:(WebSocket *)ws didReceiveMessage:(NSString *)msg{
-    NSLog(@"=======%s", __FUNCTION__);
-
+    WSLog(@"=======%s", __FUNCTION__);
     MyWebSocket *webSocket = (MyWebSocket *)ws;
 
     if (msg.length <= 0) {
         return;
     }
 
-    NSLog(@"=======didReceiveMessage msg:%@", msg);
+    WSLog(@"=======didReceiveMessage msg:%@", msg);
 
     NSData *data = [msg dataUsingEncoding:NSUTF8StringEncoding];
     if (!data) {
         return;
     }
-    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
 
+    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+    uint32_t messageType = (uint32_t)[dict[@"messageType"] integerValue];
+    if(messageType == SocketMessageType_HeartBeat){
+        [webSocket startHeartBeatRecvTimer];
+        return;
+    }
+
+    NSString *messageBody = dict[@"messageBody"];
+
+    //处理msg
+    if(self.handleReceiveMessage){
+        self.handleReceiveMessage(messageType,messageBody);
+    }
+
+/*
     NSString *messageType = dict[@"messageType"];
     if (messageType.length <= 0) {
         return;
@@ -244,35 +334,19 @@ typedef NS_OPTIONS(uint32_t, LWSocketMessageType) {
 
     if ([messageType isEqualToString:@"heartBeat"]) {
         [webSocket startHeartBeatRecvTimer];
-    }
-
-/*
-    uint32_t messageType = [dict[@"messageType"] toUInt32];
-    switch (messageType){
-        case SocketMessageType_HeartBeat:{
-            [webSocket startHeartBeatRecvTimer];
-            break;
-        }
-        case SocketMessageType_String:{
-            //todo:
-            break;
-        }
-        case SocketMessageType_Raw:{
-            //todo:
-            break;
-        }
-        default:{
-            break;
-        }
+        return;
     }
 */
-
 
 }
 
 //收到二进制数据
 - (void)webSocket:(WebSocket *)ws didReceiveData:(NSData *)data{
-    NSLog(@"=======%s",__FUNCTION__);
+    WSLog(@"=======%s",__FUNCTION__);
+    MyWebSocket *webSocket = (MyWebSocket *)ws;
+    if(!self.handleReceiveData){
+        return;
+    }
 
     NSUInteger headerLen = 4;
     if(data.length < headerLen){
@@ -288,45 +362,52 @@ typedef NS_OPTIONS(uint32_t, LWSocketMessageType) {
     uint32_t messageType;
     [headerData getBytes:&messageType length:sizeof(uint32_t)];
 
-/*
-    switch (messageType){
-        case SocketMessageType_StreamStart:{
-            //todo:
-            break;
-        }
-        case SocketMessageType_Streaming:{
-            break;
-        }
-        case SocketMessageType_StreamEnd:{
-            break;
-        }
-        case SocketMessageType_Data:{
-            break;
-        }
-        case SocketMessageType_Raw:{
-            break;
-        }
+    //处理data，第4个字节之后为真实数据
+    NSData *realData = [data subdataWithRange:NSMakeRange(headerLen, data.length - headerLen)];
 
-        default:{
+    switch (messageType) {
+        case SocketMessageType_StreamStart: {
+            WSLog(@"======ws didReceiveData StreamStart");
+            [self.dataStream open];
+            self.handleReceiveData(messageType, nil);
+            break;
+        }
+        case SocketMessageType_Streaming: {
+            WSLog(@"======ws didReceiveData Streaming ...");
+            NSUInteger dataLength = [realData length];
+            NSInteger writeLen = [self.dataStream write:[realData bytes] maxLength:dataLength];
+            if(dataLength > writeLen){  //发生错误
+                self.streamFilePath = nil;
+                self.streamError = [self.dataStream streamError];
+                [self.dataStream close];
+                self.dataStream = nil;
+                return;
+            }
+            self.handleReceiveData(messageType, nil);
+            break;
+        }
+        case SocketMessageType_StreamEnd: {
+            WSLog(@"======ws didReceiveData StreamEnd");
+            if(self.dataStream && self.dataStream.streamStatus != NSStreamStatusClosed){
+                [self.dataStream close];
+                self.dataStream = nil;
+            }
+            NSData *pathData = self.streamError==nil ?[self.streamFilePath dataUsingEncoding:NSUTF8StringEncoding] : nil;
+            self.handleReceiveData(messageType, pathData);
+            break;
+        }
+        default: {
+            self.handleReceiveData(messageType, realData);
             break;
         }
     }
-*/
-
-
-    //第4个字节之后为真实数据
-    NSData *realData = [data subdataWithRange:NSMakeRange(headerLen, data.length - headerLen)];
-
-    //处理接收到的二进制数据
-    NSString *text = [[NSString alloc] initWithData:realData encoding:NSUTF8StringEncoding];
-
-    NSLog(@"messageType:%d,text:%@", messageType, text);
-
 }
 
 //websocket链接关闭
 - (void)webSocketDidClose:(WebSocket *)ws{
-    NSLog(@"=======%s",__FUNCTION__);
+    WSLog(@"=======%s",__FUNCTION__);
+//    [self.webSocket stop];
+//    self.webSocket = nil;
 }
 
 
