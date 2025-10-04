@@ -37,6 +37,8 @@ LWWebSocket，用于APP内轻量级的 WebSocket 数据传输服务器.
     'LWWebSocket/Library/CocoaHTTPServer/**/*.{h,m,mm}',
     'LWWebSocket/Library/CocoaLumberjack/**/*.{h,m,mm}',
   ]
+  s.exclude_files = 'LWWebSocket/Classes/**/*.swift'
+
   s.public_header_files = [
     'LWWebSocket/Classes/WebSocketManager.h',
     # 'LWWebSocket/Library/CocoaHTTPServer/HTTPConnection.h',
@@ -45,7 +47,7 @@ LWWebSocket，用于APP内轻量级的 WebSocket 数据传输服务器.
     # 'LWWebSocket/Library/CocoaHTTPServer/**/*.h',
     # 'LWWebSocket/Library/CocoaLumberjack/**/*.h',
   ]
-  
+
   s.resource_bundles = {
     'LWWebSocket' => ['LWWebSocket/Assets/**/*']
   }
